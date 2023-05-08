@@ -16,9 +16,47 @@ body {
 
 /* logo */
 
-.logo {
+#logo {
     float: left;
     height: 50px;
-    margin-top: 10px;
     margin-left: 30px;
+    margin-top: 15px;
+}
+
+/* navigation menu */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #040404;
+}
+
+#menu a.active {
+    border-bottom: 1px solid #040404;
+}
+
+ul {
+    display: flex;
+    flex-direction: reverse;
+    float: right;
 }
