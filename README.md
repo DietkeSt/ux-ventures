@@ -44,6 +44,9 @@ HTML5, CSS3
 
 ##Credits
 
+Flex Direction code found here: <https://www.w3schools.com/cssref/css3_pr_flex-direction.php>
+
+
 ##Content
 
 ##Media

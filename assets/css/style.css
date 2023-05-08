@@ -48,11 +48,11 @@ body {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #040404;
+    text-decoration: underline;
 }
 
 #menu a.active {
-    border-bottom: 1px solid #040404;
+    text-decoration: underline;
 }
 
 ul {
