@@ -18,13 +18,17 @@ body {
     text-decoration: none !important;
     background-color: transparent !important;
     border-color: #04A4AC !important;
-    border-radius: 10px !important;
+    border-radius: 12px !important;
+    border: 2px solid !important;
     color: #04A4AC !important;
     font-weight: bold !important;
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.24), 0 13px 46px 0 rgba(0, 0, 0, 0.19) !important;
+    font-size: 18px !important;
 }
 
 .btn-primary:hover {
+    background-color: #04A4AC !important;
+    border-color: #04A4AC !important;
+    color: #f4f4f4 !important;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19) !important;
 }
 
