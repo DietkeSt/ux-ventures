@@ -47,6 +47,7 @@ HTML5, CSS3
 Flex Direction code found here: <https://www.w3schools.com/cssref/css3_pr_flex-direction.php>
 Hero Animation code found here: <https://freefrontend.com/css-hero-effects/>
 Usage of z-index found here: <https://developer.mozilla.org/en-US/docs/Web/CSS/z-index>
+Button from Bootsrap: https://getbootstrap.com/docs/5.1/components/buttons/
 
 ##Content
 
