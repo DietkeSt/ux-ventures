@@ -60,3 +60,19 @@ ul {
     flex-direction: reverse !important;
     float: right !important;
 }
+
+/* hero */
+
+#hero-outer {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+#hero {
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
