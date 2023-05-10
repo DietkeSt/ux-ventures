@@ -45,7 +45,7 @@ HTML5, CSS3
 ##Credits
 
 Flex Direction code found here: <https://www.w3schools.com/cssref/css3_pr_flex-direction.php>
-
+Hero Animation code found here: <https://freefrontend.com/css-hero-effects/>
 
 ##Content
 
