@@ -48,6 +48,7 @@ Flex Direction code found here: <https://www.w3schools.com/cssref/css3_pr_flex-d
 Hero Animation code found here: <https://freefrontend.com/css-hero-effects/>
 Usage of z-index found here: <https://developer.mozilla.org/en-US/docs/Web/CSS/z-index>
 Button from Bootsrap: https://getbootstrap.com/docs/5.1/components/buttons/
+Box-sizing borderbox: <https://stackoverflow.com/questions/24605308/how-to-add-space-between-buttons-and-its-borders>
 
 ##Content
 
