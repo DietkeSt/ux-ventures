@@ -56,11 +56,7 @@ body {
 }
 
 ul {
-    display: flex;
-    flex-direction: reverse;
-    float: right;
-}
-
-header {
-    position: fixed;
+    display: flex !important;
+    flex-direction: reverse !important;
+    float: right !important;
 }

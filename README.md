@@ -50,3 +50,5 @@ Flex Direction code found here: <https://www.w3schools.com/cssref/css3_pr_flex-d
 ##Content
 
 ##Media
+
+"hero.png" Pexels: <https://www.pexels.com/de-de/foto/weisses-druckerpapier-196645/>
