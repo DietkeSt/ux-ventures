@@ -190,9 +190,9 @@ nav ul {
 /* about styling */
 
 #about {
-    height: 600px;
-    margin: 50px 0 100px 0;
-    padding: 0 75px 0 75px;
+    height: 750px;
+    margin: 50px 0;
+    padding: 75px;
 }
 
 #about h2,
@@ -224,7 +224,8 @@ nav ul {
 
 #testimonials {
     height: 750px;
-    padding: 50px 75px 0 75px;
+    margin: 50px 0;
+    padding: 75px;
     background-color: #04A4AC;
 }
 
@@ -316,19 +317,24 @@ blockquote.q-card>.author::before {
 
 /* book-call styling */
 
-#book-call h2 {
-    margin-top: 50px;
+#book-call {
+    height: 750px;
+    margin: 50px 0;
+    padding: 75px;
 }
 
 .book-call-photo {
     background: url("../images/book-call.jpg") no-repeat center center;
     height: 500px;
-    width: 75%;
+    width: 400px;
     border-radius: 20px;
 }
 
 .container-book-call {
+    display: flex;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 #book-call .call-item-1 {
@@ -340,14 +346,6 @@ blockquote.q-card>.author::before {
 }
 
 #book-call .call-item-2 {
-    border: solid 1px blue;
-    float: left;
-    width: 75%;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-#book-call .call-item-3 {
     border: solid 1px blue;
     float: left;
     width: 75%;
