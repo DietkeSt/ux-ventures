@@ -93,20 +93,20 @@ nav ul {
     text-decoration: none !important;
     background-color: transparent !important;
     border-color: #04A4AC !important;
-    border-radius: 13px !important;
-    border: 2px solid !important;
+    border-radius: 13px;
+    border: 2px solid;
     color: #04A4AC !important;
     font-weight: bold !important;
     font-size: 18px !important;
-    box-sizing: border-box !important;
-    padding: 10px !important;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .btn-primary:hover {
-    background-color: #04A4AC !important;
-    border-color: #04A4AC !important;
-    color: #f4f4f4 !important;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19) !important;
+    background-color: #04A4AC;
+    border-color: #04A4AC;
+    color: #f4f4f4;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* hero */
@@ -236,13 +236,13 @@ nav ul {
 
 /* testimonials flexbox */
 
-.testimonials-flex {
+.flexbox {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.testimonials-flex-item {
+.flex-item {
     height: 300px;
     flex: 0 0 450px;
     margin: 0 auto;
@@ -254,6 +254,7 @@ iframe {
     border-radius: 20px;
     margin-top: 10%;
 }
+
 
 /* blockquote card setup*/
 
@@ -315,21 +316,35 @@ blockquote.q-card>.author::before {
 
 /* book-call styling */
 
+#book-call h2 {
+    margin-top: 50px;
+}
+
 .book-call-photo {
     background: url("../images/book-call.jpg") no-repeat center;
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 450px;
     border-radius: 20px;
-    margin-left: 75px;
-    margin-top: 25px;
 }
 
-.book-call-text {
-    padding-top: 30px;
-    width: 66%;
-    margin: 0 auto;
+
+
+#book-call .flexbox {
+    width: 100%;
 }
 
-.book-call-button {
-    align-items: center;
+#book-call .flex-item-1 {
+    border: solid 1px blue;
+    float: left;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#book-call .flex-item-2 {
+    border: solid 1px blue;
+    float: left;
+    width: 75%;
+    padding: 20px;
+    box-sizing: border-box;
 }
