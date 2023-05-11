@@ -321,13 +321,11 @@ blockquote.q-card>.author::before {
 }
 
 .book-call-photo {
-    background: url("../images/book-call.jpg") no-repeat center;
-    height: 300px;
-    width: 450px;
+    background: url("../images/book-call.jpg") no-repeat center center;
+    height: 500px;
+    width: 75%;
     border-radius: 20px;
 }
-
-
 
 .container-book-call {
     width: 100%;
