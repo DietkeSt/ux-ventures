@@ -244,9 +244,12 @@ nav ul {
 
 .testimonials-flex-item {
     height: 300px;
-    flex: 0 0 450px;
+    flex: 0 0 500px;
     margin: 0 auto;
-    border: 2px blue solid;
+}
+
+iframe {
+    border-radius: 20px;
 }
 
 /* book-call styling */
