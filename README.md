@@ -50,7 +50,10 @@ Usage of z-index found here: <https://developer.mozilla.org/en-US/docs/Web/CSS/z
 Button from Bootsrap: https://getbootstrap.com/docs/5.1/components/buttons/
 Box-sizing borderbox: <https://stackoverflow.com/questions/24605308/how-to-add-space-between-buttons-and-its-borders>
 
-Bootstrap for Video slider.
+Flex box: https://stackoverflow.com/questions/48464444/how-to-display-3-items-per-row-in-flexbox
+
+Blockquote styling: https://freefrontend.com/css-quote-styles/
+
 
 ##Content
 
