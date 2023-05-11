@@ -238,7 +238,11 @@ nav ul {
     height: 500px;
     width: 750px;
     margin: 0 auto;
-} 
+}
+
+.carousel-control {
+    width: 5% !important;
+}
 
 /* book-call styling */
 
