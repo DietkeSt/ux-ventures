@@ -234,13 +234,20 @@ nav ul {
     margin-bottom: 50px;
 }
 
+#myCarousel {
+    height: 500px;
+    width: 750px;
+    margin: 0 auto;
+}
+
 /* book-call styling */
 
 .book-call-photo {
-    background: url("../images/book-call.jpg") no-repeat center center;
-    height: 400px;
-    width: 400px;
+    background: url("../images/book-call.jpg") no-repeat center;
+    height: 500px;
+    width: 500px;
     border-radius: 50%;
+    margin-left: 75px;
 }
 
 .book-call-text {
