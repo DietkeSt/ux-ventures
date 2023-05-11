@@ -240,18 +240,19 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
 }
 
 .testimonials-flex-item {
     height: 300px;
-    flex: 0 0 500px;
+    flex: 0 0 450px;
     margin: 0 auto;
     align-items: center;
+    padding: 20px;
 }
 
 iframe {
     border-radius: 20px;
+    margin-top: 10%;
 }
 
 /* blockquote card setup*/
@@ -259,18 +260,18 @@ iframe {
 blockquote.q-card {
     --padding: 1rem;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20%;
     color: #040404;
-    font-weight: 600;
     background-color: #f4f4f4;
     display: grid;
-    gap: 1rem;
     background-image: radial-gradient(circle, var(--dot-color, rgb(0 0 0 / .125)) calc(25% - 1px), transparent 25%);
     background-size: 0.5rem 0.5rem;
     border: solid 1px #040404;
-    border-radius: 15px;
+    border-radius: 20px;
     font-family: Lato, sans-serif;
+    font-weight: 300;
     font-size: 18px;
+    max-height: 200px;
 }
 
 blockquote.q-card:hover {
@@ -278,7 +279,7 @@ blockquote.q-card:hover {
 }
 
 blockquote.q-card::before {
-    --qHeight: 4rem;
+    --qHeight: 2rem;
     content: "";
     margin-left: calc(var(--padding) * -1);
     margin-top: calc(var(--padding) * -1);
@@ -300,11 +301,16 @@ blockquote.q-card>.author {
     justify-self: end;
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
-    font-size: 21px;
+    font-size: 16px;
 }
 
 blockquote.q-card>.author::before {
     content: "- "
+}
+
+.card3,
+.card2 {
+    margin: 0 -20% 0 20%;
 }
 
 /* book-call styling */
