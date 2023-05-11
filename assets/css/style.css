@@ -223,40 +223,29 @@ nav ul {
 
 #testimonials {
     height: 750px;
-    margin: 50px 0;
-    padding: 25px 75px 0 75px;
+    padding: 50px 75px 0 75px;
     background-color: #04A4AC;
 }
 
 #testimonials h2,
 #testimonials p {
     color: #f4f4f4;
-    margin-bottom: 50px;
 }
 
-#myCarousel {
-    height: 500px;
-    width: 750px;
+/* testimonials flexbox */
+
+.testimonials-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonials-flex-item {
+    height: 300px;
+    flex: 0 0 450px;
     margin: 0 auto;
+    border: 2px blue solid;
 }
-
-.carousel-control {
-    width: 5% !important;
-}
-
-.item {
-    border-radius: 20px;
-    overflow: hidden;
-    height: 500px;
-    width: 750px;
-}
-
-a.right.carousel-control,
-a.left.carousel-control {
-    border-radius: 20px;
-}
-
-
 
 /* book-call styling */
 
