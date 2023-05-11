@@ -8,6 +8,9 @@
     <meta name="description" content="UX Ventures offers career coaching for UX Design students">
     <meta name="keywords" content="coaching, career, ux design, ux career">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>UX Ventures</title>
 </head>
 <main>
@@ -118,10 +121,91 @@
         </section>
         <section id="testimonials">
             <h2>What other students say?</h2>
-            <div></div>
-            <div></div>
+            <div class="container">
+                <h2>Carousel Example</h2>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
 
-        
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+                            <iframe width="100%" height="600px"
+                                src="https://www.youtube.com/embed/RE25PyaUTiU?wmode=opaque" frameborder="0"></iframe>
+                            <div class="carousel-caption">
+                                <h3>Alex</h3>
+                                <p>Alex felt stuck in his job and was looking for a career that combined his creative
+                                    talent with
+                                    his organisational experience. Working together we were able to find him a
+                                    fulfilling career as
+                                    a UX Designer.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <iframe width="100%" height="600px"
+                                src="https://www.youtube.com/embed/9B4JHmqy1lA?wmode=opaque" frameborder="0"></iframe>
+                            <div class="carousel-caption">
+                                <h3>Jaque</h3>
+                                <p>Jaque is an immensly talented designer who struggled getting a job offer because of
+                                    her location.
+                                    A-mid sized town in Ireland with few companies offering jobs in UX Design. Working
+                                    on her case
+                                    studies and interviews, it didn't take long to catch the interest of several
+                                    companies and she
+                                    accepted an offer she was happy with.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <iframe width="100%" height="600px"
+                                src="https://www.youtube.com/embed/YOgWKQLvWuw?wmode=opaque" frameborder="0"></iframe>
+                            <div class="carousel-caption">
+                                <h3>Zan</h3>
+                                <p>Zan is a fantastic designer who struggled finding companies that didn't mind his
+                                    non-existent
+                                    professional experience. His area didn't have many opportunities, so we focused on
+                                    networking
+                                    and specilizing in consultation areas, resulting in him finding a job in a different
+                                    country
+                                    with more opportunities.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <iframe width="100%" height="600px"
+                                src="https://www.youtube.com/embed/XUPqd9mkfuQ?wmode=opaque" frameborder="0"></iframe>
+                            <div class="carousel-caption">
+                                <h3>Nina</h3>
+                                <p>Nina was working as a seasonal hospitality worker. Long hours, the need of
+                                    availability and other
+                                    comittments didn't leave a lot of time for her learning and applications. We worked
+                                    together for
+                                    several months, gradually landing more interviews, passing design challenges and
+                                    finally getting
+                                    landing her first UX job.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
         </section>
         <section id="book-call">
             Book Call
