@@ -329,11 +329,11 @@ blockquote.q-card>.author::before {
 
 
 
-#book-call .flexbox {
+.container-book-call {
     width: 100%;
 }
 
-#book-call .flex-item-1 {
+#book-call .call-item-1 {
     border: solid 1px blue;
     float: left;
     width: 25%;
@@ -341,7 +341,15 @@ blockquote.q-card>.author::before {
     box-sizing: border-box;
 }
 
-#book-call .flex-item-2 {
+#book-call .call-item-2 {
+    border: solid 1px blue;
+    float: left;
+    width: 75%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#book-call .call-item-3 {
     border: solid 1px blue;
     float: left;
     width: 75%;
