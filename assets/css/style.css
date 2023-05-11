@@ -233,3 +233,22 @@ nav ul {
     color: #f4f4f4;
     margin-bottom: 50px;
 }
+
+/* book-call styling */
+
+.book-call-photo {
+    background: url("../images/book-call.jpg") no-repeat center center;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.book-call-text {
+    padding-top: 30px;
+    width: 66%;
+    margin: 0 auto;
+}
+
+.book-call-button {
+    align-items: center;
+}

@@ -50,8 +50,13 @@ Usage of z-index found here: <https://developer.mozilla.org/en-US/docs/Web/CSS/z
 Button from Bootsrap: https://getbootstrap.com/docs/5.1/components/buttons/
 Box-sizing borderbox: <https://stackoverflow.com/questions/24605308/how-to-add-space-between-buttons-and-its-borders>
 
+Bootstrap for Video slider.
+
 ##Content
 
 ##Media
+
+logo created by myself
+book-call photo of Kim Steindel with approval of use
 
 "hero.png" Pexels: <https://www.pexels.com/de-de/foto/weisses-druckerpapier-196645/>
