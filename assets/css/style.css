@@ -231,6 +231,7 @@ nav ul {
 #testimonials h2,
 #testimonials p {
     color: #f4f4f4;
+    margin-bottom: 50px;
 }
 
 /* testimonials flexbox */
