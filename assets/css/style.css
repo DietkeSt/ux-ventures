@@ -244,14 +244,29 @@ nav ul {
     width: 5% !important;
 }
 
+.item {
+    border-radius: 20px;
+    overflow: hidden;
+    height: 500px;
+    width: 750px;
+}
+
+a.right.carousel-control,
+a.left.carousel-control {
+    border-radius: 20px;
+}
+
+
+
 /* book-call styling */
 
 .book-call-photo {
     background: url("../images/book-call.jpg") no-repeat center;
     height: 500px;
     width: 500px;
-    border-radius: 50%;
+    border-radius: 20px;
     margin-left: 75px;
+    margin-top: 25px;
 }
 
 .book-call-text {
