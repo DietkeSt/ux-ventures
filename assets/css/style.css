@@ -39,6 +39,7 @@ h4 {
     font-size: 18px;
 }
 
+
 /* logo */
 
 #logo {
@@ -206,4 +207,9 @@ p {
 
 #about ul {
     padding: 20px;
+}
+
+.strong {
+    color: #04A4AC;
+    font-weight: 300;
 }
