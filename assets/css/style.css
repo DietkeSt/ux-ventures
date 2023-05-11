@@ -147,9 +147,9 @@ nav ul {
 #hero-text h1 {
     font-size: 32px;
     position: absolute;
-    top: 40%;
-    left: 25%;
-    right: 25%
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #hero-text p {
@@ -158,8 +158,8 @@ nav ul {
     line-height: 24px;
     position: absolute;
     top: 50%;
-    left: 25%;
-    right: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
 
