@@ -13,6 +13,7 @@ li {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #040404;
+    font-size: 18px;
 }
 
 h1,
@@ -27,6 +28,15 @@ h2 {
     font-size: 28px;
     text-transform: uppercase;
     text-align: center;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+h4 {
+    font-family: Open-Sans, sans-serif;
+    font-size: 18px;
 }
 
 /* logo */
@@ -181,4 +191,19 @@ nav ul {
 #about {
     height: 600px;
     padding: 50px 75px 0 75px;
+}
+
+#about h2,
+h3,
+p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#about li::marker {
+    color: #04A4AC;
+}
+
+#about ul {
+    padding: 20px;
 }
