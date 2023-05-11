@@ -190,12 +190,13 @@ nav ul {
 
 #about {
     height: 600px;
-    padding: 50px 75px 0 75px;
+    margin-top: 50px;
+    padding: 0 75px 0 75px;
 }
 
 #about h2,
-h3,
-p {
+#about h3,
+#about p {
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -211,4 +212,18 @@ p {
 .strong {
     color: #04A4AC;
     font-weight: 300;
+}
+
+/* testimonial styling */
+
+#testimonials {
+    height: 600px;
+    margin-top: 50px;
+    padding: 0 75px 0 75px;
+    background-color: #04A4AC;
+}
+
+#testimonials h2 {
+    color: #f4f4f4;
+    padding-top: 50px;
 }
