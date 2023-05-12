@@ -346,7 +346,7 @@ div .book-call-photo {
 
 #book-call .call-item-1 {
     border: solid 1px blue;
-    width: 25%;
+    width: 33%;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -357,7 +357,7 @@ div .book-call-photo {
     justify-content: space-between;
     align-items: flex-start;
     border: solid 1px blue;
-    width: 75%;
+    width: 33%;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -371,6 +371,17 @@ div .book-call-photo {
     font-family: Lato, sans-serif;
     text-transform: uppercase;
     align-self: flex-end;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: solid 1px blue;
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 /* contact form styling */
