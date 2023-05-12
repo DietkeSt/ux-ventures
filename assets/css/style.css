@@ -221,21 +221,17 @@ nav ul {
 .about-intro {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    border: solid 1px blue;
+    justify-content: flex-start;
     width: 100%;
     box-sizing: border-box;
-    margin: 0 2%;
+    margin: 0 2% 2% 2%;
 }
 
 .about-services {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    border: solid 1px blue;
-    width: 45%;
+    justify-content: flex-start;
+    width: 46%;
     box-sizing: border-box;
     margin: 0 2%;
 }
@@ -243,10 +239,8 @@ nav ul {
 .about-benefits {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    border: solid 1px blue;
-    width: 45%;
+    justify-content: flex-start;
+    width: 46%;
     box-sizing: border-box;
     margin: 0 2%;
 }
