@@ -252,7 +252,6 @@ nav ul {
 
 iframe {
     border-radius: 20px;
-    margin-top: 10%;
 }
 
 
@@ -261,7 +260,6 @@ iframe {
 blockquote.q-card {
     --padding: 1rem;
     padding: 20px;
-    margin-bottom: 20%;
     color: #040404;
     background-color: #f4f4f4;
     display: grid;
@@ -273,6 +271,7 @@ blockquote.q-card {
     font-weight: 300;
     font-size: 18px;
     max-height: 200px;
+    margin: 2%;
 }
 
 blockquote.q-card:hover {
@@ -307,11 +306,6 @@ blockquote.q-card>.author {
 
 blockquote.q-card>.author::before {
     content: "- "
-}
-
-.card3,
-.card2 {
-    margin: 0 -20% 0 20%;
 }
 
 /* book-call styling */
