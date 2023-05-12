@@ -197,11 +197,6 @@ nav ul {
     padding: 75px;
 }
 
-#about p {
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
 #about li::marker {
     color: #04A4AC;
 }
@@ -213,6 +208,47 @@ nav ul {
 .strong {
     color: #04A4AC;
     font-weight: 300;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+}
+
+.about-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: solid 1px blue;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 2%;
+}
+
+.about-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: solid 1px blue;
+    width: 45%;
+    box-sizing: border-box;
+    margin: 0 2%;
+}
+
+.about-benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: solid 1px blue;
+    width: 45%;
+    box-sizing: border-box;
+    margin: 0 2%;
 }
 
 /* testimonial styling */
