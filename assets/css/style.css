@@ -361,7 +361,6 @@ blockquote.q-card>.author::before {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    border: solid 1px blue;
     width: 46%;
     box-sizing: border-box;
     position: relative;
@@ -405,7 +404,6 @@ blockquote.q-card>.author::before {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    border: solid 1px blue;
     width: 46%;
     box-sizing: border-box;
     margin: 0 2%;
