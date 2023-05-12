@@ -273,7 +273,6 @@ nav ul {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    border: solid 1px blue;
     width: calc(33% - 4%);
     box-sizing: border-box;
     margin: 0 2%;
