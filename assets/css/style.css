@@ -339,23 +339,38 @@ div .book-call-photo {
 
 .container-book-call {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     width: 100%;
 }
 
 #book-call .call-item-1 {
     border: solid 1px blue;
-    float: left;
     width: 25%;
     padding: 20px;
     box-sizing: border-box;
 }
 
 #book-call .call-item-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
     border: solid 1px blue;
-    float: left;
     width: 75%;
     padding: 20px;
     box-sizing: border-box;
+}
+
+#book-call .call-item-2 p {
+    align-self: flex-start;
+    margin-bottom: 50px;
+}
+
+.btn-book-call {
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    align-self: flex-end;
 }
 
 /* contact form styling */
