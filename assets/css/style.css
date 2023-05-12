@@ -353,6 +353,7 @@ div .book-call-photo {
     border: solid 1px blue;
     width: 33%;
     box-sizing: border-box;
+    position: relative;
 }
 
 #book-call .call-item-2 p {
@@ -363,14 +364,12 @@ div .book-call-photo {
 .btn-book-call {
     font-family: Lato, sans-serif;
     text-transform: uppercase;
-    justify-content: flex-end;
     text-align: center;
-}
-
-.btn-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
 }
 
 
