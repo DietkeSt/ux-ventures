@@ -53,7 +53,7 @@ Box-sizing borderbox: <https://stackoverflow.com/questions/24605308/how-to-add-s
 Flex box: https://stackoverflow.com/questions/48464444/how-to-display-3-items-per-row-in-flexbox
 
 Blockquote styling: https://freefrontend.com/css-quote-styles/
-
+Width calculator: <https://developer.mozilla.org/en-US/docs/Web/CSS/calc>
 
 ##Content
 
