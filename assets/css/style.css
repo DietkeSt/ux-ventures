@@ -340,15 +340,10 @@ blockquote.q-card>.author::before {
     padding: 75px;
 }
 
-div .book-call-photo {
-    height: 300px;
-    width: 50%;
-}
-
 .book-call-photo {
-    height: 300px;
+    min-height: 300px;
+    min-width: 200px;
     width: 50%;
-    margin: 0 auto;
     background: url("../images/book-call.jpg") no-repeat center center;
     border-radius: 20px;
     background-size: cover;
@@ -356,16 +351,9 @@ div .book-call-photo {
 
 .container-book-call {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: stretch;
     width: 100%;
-}
-
-#book-call .call-item-1 {
-    border: solid 1px blue;
-    width: 33%;
-    box-sizing: border-box;
-    margin: 0 2%;
 }
 
 #book-call .call-item-2 {
@@ -374,7 +362,7 @@ div .book-call-photo {
     justify-content: space-between;
     align-items: flex-start;
     border: solid 1px blue;
-    width: 33%;
+    width: 46%;
     box-sizing: border-box;
     position: relative;
     margin: 0 2%;
@@ -418,7 +406,7 @@ div .book-call-photo {
     justify-content: space-between;
     align-items: flex-start;
     border: solid 1px blue;
-    width: 33%;
+    width: 46%;
     box-sizing: border-box;
     margin: 0 2%;
 }
