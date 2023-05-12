@@ -234,16 +234,20 @@ nav ul {
 
 .flexbox {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
 }
 
 .flex-item {
-    height: 300px;
-    flex: 0 0 450px;
-    margin: 0 auto;
-    align-items: center;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: solid 1px blue;
+    width: 33%;
+    box-sizing: border-box;
+    margin: 0 2%;
 }
 
 iframe {
@@ -343,6 +347,7 @@ div .book-call-photo {
     border: solid 1px blue;
     width: 33%;
     box-sizing: border-box;
+    margin: 0 2%;
 }
 
 #book-call .call-item-2 {
@@ -354,11 +359,13 @@ div .book-call-photo {
     width: 33%;
     box-sizing: border-box;
     position: relative;
+    margin: 0 2%;
 }
 
 #book-call .call-item-2 p {
     align-self: flex-start;
     margin-bottom: 20px;
+    margin: 0 2%;
 }
 
 .btn-book-call {
@@ -381,6 +388,7 @@ div .book-call-photo {
     border: solid 1px blue;
     width: 33%;
     box-sizing: border-box;
+    margin: 0 2%;
 }
 
 /* contact form styling */
