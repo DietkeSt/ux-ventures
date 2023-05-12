@@ -269,10 +269,7 @@ blockquote.q-card {
     font-family: Lato, sans-serif;
     font-weight: 300;
     font-size: 18px;
-    max-height: 200px;
     margin: 2%;
-    word-wrap: break-word;
-    overflow: hidden;
 }
 
 blockquote.q-card:hover {
@@ -360,7 +357,6 @@ div .book-call-photo {
 #book-call .call-item-2 p {
     align-self: flex-start;
     margin-bottom: 20px;
-    margin: 0 2%;
 }
 
 .btn-book-call {
