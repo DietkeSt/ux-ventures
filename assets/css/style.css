@@ -323,18 +323,23 @@ blockquote.q-card>.author::before {
     padding: 75px;
 }
 
+div .book-call-photo {
+    height: 300px;
+    width: 50%;
+}
+
 .book-call-photo {
+    height: 300px;
+    width: 50%;
+    margin: 0 auto;
     background: url("../images/book-call.jpg") no-repeat center center;
-    height: 500px;
-    width: 400px;
     border-radius: 20px;
+    background-size: cover;
 }
 
 .container-book-call {
     display: flex;
     width: 100%;
-    justify-content: center;
-    align-items: center;
 }
 
 #book-call .call-item-1 {
@@ -352,3 +357,6 @@ blockquote.q-card>.author::before {
     padding: 20px;
     box-sizing: border-box;
 }
+
+/* contact form styling */
+
