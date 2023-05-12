@@ -93,13 +93,13 @@ nav ul {
     text-decoration: none !important;
     background-color: transparent !important;
     border-color: #04A4AC !important;
-    border-radius: 13px;
-    border: 2px solid;
+    border-radius: 13px !important;
+    border: 2px solid !important;
     color: #04A4AC !important;
     font-weight: bold !important;
     font-size: 18px !important;
-    box-sizing: border-box;
-    padding: 10px;
+    box-sizing: border-box !important;
+    padding: 10px !important;
 }
 
 .btn-primary:hover {
@@ -359,4 +359,3 @@ div .book-call-photo {
 }
 
 /* contact form styling */
-
