@@ -28,15 +28,18 @@ h2 {
     font-size: 28px;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 h3 {
     font-size: 21px;
+    margin-bottom: 20px;
 }
 
 h4 {
     font-family: Open-Sans, sans-serif;
     font-size: 18px;
+    margin-bottom: 20px;
 }
 
 
@@ -195,13 +198,6 @@ nav ul {
     padding: 75px;
 }
 
-#about h2,
-#about h3 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    color: #04A4AC;
-}
-
 #about p {
     margin-bottom: 20px;
     margin-top: 20px;
@@ -232,7 +228,6 @@ nav ul {
 #testimonials h2,
 #testimonials p {
     color: #f4f4f4;
-    margin-bottom: 50px;
 }
 
 /* testimonials flexbox */
@@ -347,7 +342,6 @@ div .book-call-photo {
 #book-call .call-item-1 {
     border: solid 1px blue;
     width: 33%;
-    padding: 20px;
     box-sizing: border-box;
 }
 
@@ -358,13 +352,12 @@ div .book-call-photo {
     align-items: flex-start;
     border: solid 1px blue;
     width: 33%;
-    padding: 20px;
     box-sizing: border-box;
 }
 
 #book-call .call-item-2 p {
     align-self: flex-start;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
 }
 
 .btn-book-call {
@@ -380,7 +373,6 @@ div .book-call-photo {
     align-items: flex-start;
     border: solid 1px blue;
     width: 33%;
-    padding: 20px;
     box-sizing: border-box;
 }
 
