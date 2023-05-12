@@ -263,8 +263,6 @@ blockquote.q-card {
     color: #040404;
     background-color: #f4f4f4;
     display: grid;
-    background-image: radial-gradient(circle, var(--dot-color, rgb(0 0 0 / .125)) calc(25% - 1px), transparent 25%);
-    background-size: 0.5rem 0.5rem;
     border: solid 1px #040404;
     border-radius: 20px;
     font-family: Lato, sans-serif;
@@ -272,6 +270,8 @@ blockquote.q-card {
     font-size: 18px;
     max-height: 200px;
     margin: 2%;
+    word-wrap: break-word;
+    overflow: hidden;
 }
 
 blockquote.q-card:hover {
