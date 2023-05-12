@@ -194,7 +194,6 @@ nav ul {
 
 #about {
     height: 750px;
-    margin: 50px 0;
     padding: 75px;
 }
 
@@ -220,7 +219,6 @@ nav ul {
 
 #testimonials {
     height: 750px;
-    margin: 50px 0;
     padding: 75px;
     background-color: #04A4AC;
 }
@@ -310,7 +308,6 @@ blockquote.q-card>.author::before {
 
 #book-call {
     height: 750px;
-    margin: 50px 0;
     padding: 75px;
 }
 
