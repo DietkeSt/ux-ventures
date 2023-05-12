@@ -399,7 +399,7 @@ div .book-call-photo {
 
 .call-item-3 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     border: solid 1px blue;
@@ -409,3 +409,55 @@ div .book-call-photo {
 }
 
 /* contact form styling */
+
+.contact-form-container {
+    width: 100%;
+    margin-top: 20px;
+    font-family: Lato, sans-serif;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #040404;
+    font-size: 18px;
+}
+
+.contact-form .text-input,
+.contact-form .text-input-long {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #04A4AC;
+    border-radius: 13px;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.contact-form .text-input-long {
+    height: 150px;
+    width: 100%;
+}
+
+.contact-form .submit-button {
+    width: 50%;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+}
+
+.contact-form .submit-button:focus {
+    outline: none;
+}
+
+.contact-form ::placeholder {
+    color: #999999;
+}
+
+.contact-form :-ms-input-placeholder {
+    color: #999999;
+}
+
+.contact-form ::-ms-input-placeholder {
+    color: #999999;
+}
