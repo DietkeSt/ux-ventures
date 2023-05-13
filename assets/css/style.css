@@ -42,6 +42,17 @@ h4 {
     margin-bottom: 20px;
 }
 
+/* sticky navigation */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navigation {
+    background-color: rgba(0, 0, 0, 0.19);
+}
 
 /* logo */
 
