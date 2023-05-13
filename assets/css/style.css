@@ -340,20 +340,27 @@ blockquote.q-card>.author::before {
     padding: 75px;
 }
 
-.book-call-photo {
-    min-height: 300px;
-    min-width: 200px;
-    width: 50%;
-    background: url("../images/book-call.jpg") no-repeat center center;
-    border-radius: 20px;
-    background-size: cover;
-}
-
 .container-book-call {
     display: flex;
     justify-content: center;
     align-items: stretch;
     width: 100%;
+    overflow: auto;
+}
+
+.book-call-photo {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+}
+
+.book-call-photo img {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    border-radius: 20px;
+    --padding: 1rem;
 }
 
 #book-call .call-item-2 {
