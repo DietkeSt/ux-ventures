@@ -358,7 +358,6 @@ blockquote.q-card>.author::before {
     justify-content: center;
     align-items: stretch;
     width: 100%;
-    overflow: auto;
 }
 
 .book-call-photo {
