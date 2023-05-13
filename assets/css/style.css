@@ -195,6 +195,7 @@ nav ul {
 #about {
     height: auto;
     padding: 75px 75px 150px 75px;
+    min-height: 750px;
 }
 
 #about li::marker {
@@ -251,6 +252,7 @@ nav ul {
     height: auto;
     padding: 75px 75px 150px 75px;
     background-color: #04A4AC;
+    min-height: 750px;
 }
 
 #testimonials h2,
@@ -280,6 +282,7 @@ nav ul {
 
 iframe {
     border-radius: 20px;
+    min-height: 450px;
 }
 
 
@@ -338,6 +341,7 @@ blockquote.q-card>.author::before {
 #book-call {
     height: auto;
     padding: 75px 75px 150px 75px;
+    min-height: 750px;
 }
 
 .container-book-call {
