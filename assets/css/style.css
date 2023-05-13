@@ -48,10 +48,8 @@ header {
     position: sticky;
     top: 0;
     z-index: 999;
-}
-
-.navigation {
-    background-color: rgba(255, 255, 255, 0.6) !important;
+    background-color: white;
+    overflow: hidden;
 }
 
 /* logo */
