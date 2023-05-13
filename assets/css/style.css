@@ -452,3 +452,36 @@ blockquote.q-card>.author::before {
     font-family: Lato, sans-serif;
     text-transform: uppercase;
 }
+
+/* footer styling */
+
+#footer {
+    line-height: 75px;
+    padding: 75px;
+    background-color: #04A4AC;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#footer p {
+    font-size: 90%;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+
+.social-icons>li {
+    display: inline;
+    text-align: right;
+}
+
+.social-icons i {
+    color: #f4f4f4 !important;
+    font-size: 160% !important;
+}
