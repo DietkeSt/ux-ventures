@@ -54,6 +54,7 @@ Flex box: https://stackoverflow.com/questions/48464444/how-to-display-3-items-pe
 
 Blockquote styling: https://freefrontend.com/css-quote-styles/
 Width calculator: <https://developer.mozilla.org/en-US/docs/Web/CSS/calc>
+Current year in footer: <https://stackoverflow.com/questions/4562587/shortest-way-to-print-current-year-in-a-website>
 
 ##Content
 
