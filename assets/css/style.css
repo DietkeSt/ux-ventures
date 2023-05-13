@@ -327,7 +327,7 @@ blockquote.q-card::before {
             transparent calc(var(--qHeight) / 4 - 1px),
             var(--accent-color, rgb(4, 164, 172)) calc(var(--qHeight) / 4) calc(var(--qHeight) / 2),
             transparent calc(var(--qHeight) / 2 + 1px)),
-        linear-gradient(var(--accent-color, rgba(4, 164, 172)), var(--accent-color, black));
+        linear-gradient(var(--accent-color, rgba(4, 164, 172)), var(--accent-color, rgba(2, 114, 126, 1)));
     background-size: calc(var(--qHeight) / 2) calc(var(--qHeight) / 2);
     background-position: top left, bottom left;
     background-repeat: space no-repeat
@@ -470,7 +470,7 @@ blockquote.q-card>.author::before {
 #footer {
     height: 75px;
     padding: 0 75px;
-    background-color: #04A4AC;
+    background-color: #02727e;
     display: flex;
     align-items: center;
 }
