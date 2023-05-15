@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 p,
 li {
     font-family: Lato, sans-serif;
@@ -506,7 +510,7 @@ div .call-item-3 {
     text-transform: uppercase;
     text-align: center;
     color: #f4f4f4;
-    margin: 10px;
+    margin: 20px 0 10px 0;
 }
 
 #footer a {
@@ -520,7 +524,7 @@ div .call-item-3 {
 
 .social-icons>li {
     list-style: none;
-    margin: 10px;
+    margin: 10px 0 20px 0;
 }
 
 i.fa-brands.fa-linkedin::before {
