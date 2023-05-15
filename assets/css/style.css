@@ -361,6 +361,18 @@ blockquote.q-card>.author::before {
     width: 100%;
 }
 
+#book-call li::marker {
+    color: #04A4AC;
+}
+
+#book-call ul {
+    padding-left: 20px;
+}
+
+#book-call h4 {
+    margin-top: 30px;
+}
+
 .book-call-photo img {
     max-width: 100%;
     height: auto;
