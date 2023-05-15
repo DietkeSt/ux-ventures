@@ -512,3 +512,8 @@ div .call-item-3 {
     color: #f4f4f4 !important;
     font-size: 125% !important;
 }
+
+.social-icons i:hover {
+    color: #04A4AC !important;
+    transform: scale(1.5);
+}
