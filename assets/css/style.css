@@ -484,7 +484,8 @@ div .call-item-3 {
 /* footer styling */
 
 #footer {
-    height: 75px;
+    height: auto;
+    min-height: 75px;
     padding: 0 75px;
     background-color: #02727e;
     display: flex;
@@ -493,6 +494,9 @@ div .call-item-3 {
 
 .footer-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 #footer p {
@@ -500,33 +504,30 @@ div .call-item-3 {
     font-weight: 600;
     letter-spacing: 4px;
     text-transform: uppercase;
+    text-align: center;
     color: #f4f4f4;
+    margin: 10px;
 }
 
 #footer a {
     text-decoration: none;
-    color: rgb(4, 164, 172)
+    color: #04A4AC;
 }
 
 #footer a:hover {
     text-decoration: underline;
 }
 
-.social-icons {
-    position: absolute;
-    right: 75px;
-}
-
 .social-icons>li {
-    display: inline;
+    list-style: none;
+    margin: 10px;
 }
 
-.social-icons i {
-    color: #f4f4f4 !important;
-    font-size: 125% !important;
+i.fa-brands.fa-linkedin::before {
+    color: #f4f4f4;
+    font-size: 125%;
 }
 
-.social-icons i:hover {
-    color: #04A4AC !important;
+i.fa-brands.fa-linkedin:hover {
     transform: scale(1.5);
 }
