@@ -467,6 +467,10 @@ div .call-item-3 {
     width: 100%;
 }
 
+.text-input-long::-webkit-scrollbar {
+    display: none;
+}
+
 .contact-form .submit-button {
     width: 100%;
     font-family: Lato, sans-serif;
