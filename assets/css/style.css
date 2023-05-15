@@ -93,10 +93,6 @@ header {
     text-decoration: underline;
 }
 
-#menu a.active {
-    text-decoration: underline;
-}
-
 nav ul {
     display: flex !important;
     flex-direction: reverse !important;
@@ -105,20 +101,21 @@ nav ul {
 
 /* button styling*/
 
-.btn-book-call-primary {
-    text-decoration: none !important;
-    background-color: transparent !important;
-    border-color: #04A4AC !important;
-    border-radius: 13px !important;
-    border: 2px solid !important;
+.btn-book-call-secondary {
+    text-decoration: none;
+    background-color: transparent;
+    border-color: #04A4AC;
+    border-radius: 13px;
+    border: 2px solid;
     color: #04A4AC !important;
-    font-weight: bold !important;
-    font-size: 18px !important;
-    box-sizing: border-box !important;
-    padding: 10px !important;
+    font-weight: bold;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
-.btn-book-call-primary:hover {
+.btn-book-call-secondary:hover {
+    text-decoration: none !important;
     background-color: #04A4AC !important;
     border-color: #04A4AC !important;
     color: #f4f4f4 !important;
