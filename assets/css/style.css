@@ -406,6 +406,11 @@ blockquote.q-card>.author::before {
 
 }
 
+div .call-item-2,
+div .call-item-3 {
+    margin: 0 2% 2% 2%;
+}
+
 .call-item-3 h3 {
     align-self: flex-start;
 }
