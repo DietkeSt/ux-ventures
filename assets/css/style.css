@@ -94,9 +94,9 @@ header {
 }
 
 nav ul {
-    display: flex !important;
-    flex-direction: reverse !important;
-    float: right !important;
+    display: flex;
+    flex-direction: reverse;
+    float: right;
 }
 
 /* button styling*/
@@ -214,11 +214,6 @@ nav ul {
 
 #about ul {
     padding-left: 20px;
-}
-
-.strong {
-    color: #04A4AC;
-    font-weight: 300;
 }
 
 .about-container {
