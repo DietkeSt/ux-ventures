@@ -291,6 +291,7 @@ nav ul {
 
 iframe {
     border-radius: 20px;
+    border: solid 1px #040404;
     min-height: 450px;
 }
 
@@ -365,6 +366,7 @@ blockquote.q-card>.author::before {
     height: auto;
     max-height: 400px;
     border-radius: 20px;
+    border: solid 1px #040404;
 }
 
 .call-item-1 {
@@ -473,7 +475,7 @@ blockquote.q-card>.author::before {
 }
 
 #footer p {
-    font-size: 14px;
+    font-size: 80%;
     font-weight: 600;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -491,5 +493,5 @@ blockquote.q-card>.author::before {
 
 .social-icons i {
     color: #f4f4f4 !important;
-    font-size: 150% !important;
+    font-size: 125% !important;
 }
