@@ -378,7 +378,7 @@ blockquote.q-card>.author::before {
     padding-left: 20px;
 }
 
-.book-call-photo img {
+.book-call-image img {
     max-width: 100%;
     height: auto;
     max-height: 400px;
@@ -547,3 +547,13 @@ i.fa-brands.fa-linkedin:hover {
 
 /* responsive styling */
 
+/* mobile */
+
+@media screen and (max-width: 767px) {
+
+
+
+
+/* tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
