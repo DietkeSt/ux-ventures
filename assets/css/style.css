@@ -123,6 +123,7 @@ nav ul {
     font-size: 18px;
     box-sizing: border-box;
     padding: 10px;
+    letter-spacing: 4px;
 }
 
 .btn-book-call-secondary:hover {
@@ -436,6 +437,7 @@ div .call-item-3 {
     font-size: 18px;
     box-sizing: border-box;
     text-decoration: none;
+    letter-spacing: 4px;
 }
 
 .btn-book-call:hover {

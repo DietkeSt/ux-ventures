@@ -56,6 +56,8 @@ Blockquote styling: https://freefrontend.com/css-quote-styles/
 Width calculator: <https://developer.mozilla.org/en-US/docs/Web/CSS/calc>
 Current year in footer: <https://stackoverflow.com/questions/4562587/shortest-way-to-print-current-year-in-a-website>
 
+Open in new window: https://stackoverflow.com/questions/12939928/make-a-link-open-a-new-window-not-tab
+
 ##Content
 
 ##Media
