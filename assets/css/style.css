@@ -226,7 +226,7 @@ nav ul {
 }
 
 #about ul {
-    padding-left: 1em;
+    list-style-position: inside;
 }
 
 .about-container {
@@ -295,6 +295,7 @@ nav ul {
     justify-content: space-between;
     align-items: flex-start;
     width: calc(33% - 4%);
+    min-width: 25vh;
     box-sizing: border-box;
 }
 
@@ -302,6 +303,7 @@ iframe {
     border-radius: 20px;
     border: solid 1px #040404;
     min-height: 30vh;
+    min-width: 40vh;
 }
 
 
@@ -360,7 +362,7 @@ blockquote.q-card>.author::before {
 #book-call {
     height: auto;
     padding: 5em 5em 10em 5em;
-    min-height: 75h;
+    min-height: 75vh;
 }
 
 .container-book-call {
@@ -375,13 +377,14 @@ blockquote.q-card>.author::before {
 }
 
 #book-call ul {
-    padding-left: 1em;
+    list-style-position: inside;
 }
 
 .book-call-image img {
     max-width: 100%;
+    min-width: 25vh;
     height: auto;
-    max-height: 400px;
+    max-height: 40vh;
     border-radius: 20px;
     border: solid 1px #040404;
 }
@@ -392,6 +395,7 @@ blockquote.q-card>.author::before {
     justify-content: center;
     align-items: center;
     width: 33%;
+    min-width: 25vh;
     box-sizing: border-box;
     position: relative;
     margin: 0 2%;
@@ -405,6 +409,7 @@ blockquote.q-card>.author::before {
     justify-content: flex-start;
     align-items: center;
     width: 33%;
+    min-width: 25vh;
     box-sizing: border-box;
     position: relative;
     margin: 0 2em;
@@ -428,7 +433,7 @@ div .call-item-3 {
     bottom: 0;
     left: 0;
     width: 100%;
-    min-width: 250px;
+    min-width: 25vh;
     padding: 10px;
     background-color: #04A4AC;
     color: #f4f4f4;
@@ -464,7 +469,7 @@ div .call-item-3 {
 .contact-form .text-input,
 .contact-form .text-input-long {
     width: 50%;
-    min-width: 250px;
+    min-width: 25vh;
     padding: 10px;
     margin-bottom: 0.75em;
     border: 1px solid #04A4AC;
@@ -485,7 +490,7 @@ div .call-item-3 {
 
 .contact-form .submit-button {
     width: 100%;
-    min-width: 250px;
+    min-width: 25vh;
     font-family: Lato, sans-serif;
     text-transform: uppercase;
 }
