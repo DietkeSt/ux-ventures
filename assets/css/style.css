@@ -37,19 +37,19 @@ h2 {
     font-size: 28px;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 2.5em;
 }
 
 h3 {
     font-size: 21px;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
 }
 
 h4 {
     font-family: Open-Sans, sans-serif;
     font-size: 18px;
-    margin-bottom: 20px;
-    margin-top: 30px;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
 }
 }
 
@@ -65,14 +65,15 @@ header {
     z-index: 999;
     background-color: white;
     overflow: hidden;
+    min-height: 5vh;
 }
 
 /* logo */
 
-#logo {
+.logo {
     float: left;
     height: 50px;
-    padding-left: 75px;
+    margin-left: 5em;
     margin-top: 12.5px;
 }
 
@@ -92,7 +93,7 @@ header {
 #menu li {
     float: right;
     list-style-type: none;
-    padding-right: 75px;
+    padding-right: 5em;
 }
 
 #menu a {
@@ -216,8 +217,8 @@ nav ul {
 
 #about {
     height: auto;
-    padding: 75px 75px 150px 75px;
-    min-height: 750px;
+    padding: 5em 5em 10em 5em;
+    min-height: 75vh;
 }
 
 #about li::marker {
@@ -225,7 +226,7 @@ nav ul {
 }
 
 #about ul {
-    padding-left: 20px;
+    padding-left: 1em;
 }
 
 .about-container {
@@ -242,7 +243,7 @@ nav ul {
     justify-content: flex-start;
     width: 100%;
     box-sizing: border-box;
-    margin: 0 2% 2% 2%;
+    margin: 0 2em 2em 2em;
 }
 
 .about-services {
@@ -251,7 +252,7 @@ nav ul {
     justify-content: flex-start;
     width: 46%;
     box-sizing: border-box;
-    margin: 0 2%;
+    margin: 0 2em;
 }
 
 .about-benefits {
@@ -260,16 +261,16 @@ nav ul {
     justify-content: flex-start;
     width: 46%;
     box-sizing: border-box;
-    margin: 0 2%;
+    margin: 0 2em;
 }
 
 /* testimonial styling */
 
 #testimonials {
     height: auto;
-    padding: 75px 75px 150px 75px;
+    padding: 5em 5em 10em 5em;
     background-color: #04A4AC;
-    min-height: 750px;
+    min-height: 75vh;
 }
 
 #testimonials h2,
@@ -295,13 +296,12 @@ nav ul {
     align-items: flex-start;
     width: calc(33% - 4%);
     box-sizing: border-box;
-    margin: 0 2%;
 }
 
 iframe {
     border-radius: 20px;
     border: solid 1px #040404;
-    min-height: 450px;
+    min-height: 30vh;
 }
 
 
@@ -309,7 +309,7 @@ iframe {
 
 blockquote.q-card {
     --padding: 1rem;
-    padding: 20px;
+    padding: 1em;
     color: #040404;
     background-color: #f4f4f4;
     display: grid;
@@ -318,7 +318,7 @@ blockquote.q-card {
     font-family: Lato, sans-serif;
     font-weight: 300;
     font-size: 18px;
-    margin: 2%;
+    margin: 1em;
 }
 
 blockquote.q-card:hover {
@@ -359,8 +359,8 @@ blockquote.q-card>.author::before {
 
 #book-call {
     height: auto;
-    padding: 75px 75px 150px 75px;
-    min-height: 750px;
+    padding: 5em 5em 10em 5em;
+    min-height: 75h;
 }
 
 .container-book-call {
@@ -375,7 +375,7 @@ blockquote.q-card>.author::before {
 }
 
 #book-call ul {
-    padding-left: 20px;
+    padding-left: 1em;
 }
 
 .book-call-image img {
@@ -407,13 +407,13 @@ blockquote.q-card>.author::before {
     width: 33%;
     box-sizing: border-box;
     position: relative;
-    margin: 0 2%;
+    margin: 0 2em;
 
 }
 
 div .call-item-2,
 div .call-item-3 {
-    margin: 0 2% 2% 2%;
+    margin: 0 2em 2em 2em;
 }
 
 .call-item-3 h3 {
@@ -456,7 +456,7 @@ div .call-item-3 {
 
 .contact-form label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0.25em;
     color: #040404;
     font-size: 18px;
 }
@@ -466,7 +466,7 @@ div .call-item-3 {
     width: 50%;
     min-width: 250px;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 0.75em;
     border: 1px solid #04A4AC;
     border-radius: 13px;
     font-family: Lato, sans-serif;
@@ -498,8 +498,8 @@ div .call-item-3 {
 
 #footer {
     height: auto;
-    min-height: 75px;
-    padding: 0 75px;
+    min-height: 5vh;
+    padding: 0 5em;
     background-color: #02727e;
     display: flex;
     align-items: center;
@@ -519,7 +519,7 @@ div .call-item-3 {
     text-transform: uppercase;
     text-align: center;
     color: #f4f4f4;
-    margin: 20px 0 10px 0;
+    margin: 1em 0 0.5em 0;
 }
 
 #footer a {
@@ -533,7 +533,7 @@ div .call-item-3 {
 
 .social-icons>li {
     list-style: none;
-    margin: 10px 0 20px 0;
+    margin: 0.5em 0 1em 0;
 }
 
 i.fa-brands.fa-linkedin::before {
