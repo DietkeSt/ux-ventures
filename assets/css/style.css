@@ -32,6 +32,11 @@ h3 {
     color: #04A4AC;
 }
 
+h1 {
+    font-size: 32px;
+    margin-bottom: 1em;
+}
+
 h2 {
     font-weight: bold;
     font-size: 28px;
@@ -151,12 +156,14 @@ nav ul {
 
 /* hero */
 
+
 #hero {
     width: 100%;
     height: 50vh;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     animation: clip-hero-anim 1.25s cubic-bezier(0.29, 0.8, 0.8, 0.98);
     will-change: clip-path;
 }
@@ -167,8 +174,6 @@ nav ul {
     background-image: url("../images/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
-    z-index: -1;
     animation: scaling-hero-anim 4s 0.25s cubic-bezier(0, 0.71, 0.4, 0.97) forwards;
     will-change: transform;
 }
@@ -177,32 +182,20 @@ nav ul {
     font-family: Open-Sans, sans-serif;
     letter-spacing: 3px;
     text-transform: uppercase;
+    text-align: center;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    position: relative;
-    z-index: 2;
-}
-
-.hero-text h1 {
-    color: #04A4AC;
-    font-size: 32px;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-text p {
     color: #f4f4f4;
     font-size: 18px;
     line-height: 24px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
 }
 
 /* hero animation */
