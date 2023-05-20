@@ -17,14 +17,6 @@ body {
     flex-direction: column;
 }
 
-p,
-li {
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: #040404;
-    font-size: 18px;
-}
-
 h1,
 h2,
 h3 {
@@ -57,6 +49,14 @@ h4 {
     margin-top: 1.5em;
 }
 
+p,
+li {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #040404;
+    font-size: 18px;
+}
+
 a:hover {
     cursor: pointer;
 }
@@ -76,7 +76,6 @@ header {
     top: 0;
     z-index: 999;
     background-color: white;
-    overflow: hidden;
     min-height: 5vh;
 }
 
@@ -132,13 +131,14 @@ nav ul {
 
 /* button styling*/
 
-.btn-book-call-secondary {
+a.btn-book-call-secondary,
+input.btn-book-call-secondary {
     text-decoration: none;
     background-color: transparent;
     border-color: #04A4AC;
     border-radius: 13px;
     border: 2px solid;
-    color: #04A4AC !important;
+    color: #04A4AC;
     font-weight: bold;
     font-size: 18px;
     box-sizing: border-box;
@@ -146,11 +146,12 @@ nav ul {
     letter-spacing: 4px;
 }
 
-.btn-book-call-secondary:hover {
-    text-decoration: none !important;
-    background-color: #04A4AC !important;
-    border-color: #04A4AC !important;
-    color: #f4f4f4 !important;
+a.btn-book-call-secondary:hover,
+input.btn-book-call-secondary:hover {
+    text-decoration: none;
+    background-color: #04A4AC;
+    border-color: #04A4AC;
+    color: #f4f4f4;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
