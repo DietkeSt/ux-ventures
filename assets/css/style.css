@@ -427,6 +427,7 @@ div .call-item-3 {
     bottom: 0;
     left: 0;
     width: 100%;
+    min-width: 250px;
     padding: 10px;
     background-color: #04A4AC;
     color: #f4f4f4;
@@ -461,6 +462,7 @@ div .call-item-3 {
 .contact-form .text-input,
 .contact-form .text-input-long {
     width: 50%;
+    min-width: 250px;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #04A4AC;
@@ -481,6 +483,7 @@ div .call-item-3 {
 
 .contact-form .submit-button {
     width: 100%;
+    min-width: 250px;
     font-family: Lato, sans-serif;
     text-transform: uppercase;
 }
