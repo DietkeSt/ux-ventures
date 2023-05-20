@@ -12,6 +12,11 @@ html {
     scroll-behavior: smooth;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 p,
 li {
     font-family: Lato, sans-serif;
