@@ -77,45 +77,52 @@ header {
 
 /* logo */
 
-.logo {
+.logo img {
     float: left;
     height: 50px;
-    margin-left: 5em;
-    margin-top: 12.5px;
+    margin: 1em 1em 1em 5em;
 }
 
-/* navigation menu */
+/* menu */
 
-#menu {
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
     font-size: 110%;
     letter-spacing: 4px;
     text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
 }
 
-#menu,
-#logo {
+.menu,
+.logo {
     line-height: 75px;
 }
 
-#menu li {
+.menu li {
     float: right;
     list-style-type: none;
     padding-right: 5em;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+.menu a:hover {
     text-decoration: underline;
 }
 
 nav ul {
     display: flex;
     flex-direction: reverse;
-    float: right;
+    justify-content: flex-end;
 }
 
 /* button styling*/
@@ -511,7 +518,7 @@ div .call-item-3 {
 #footer {
     height: auto;
     min-height: 5vh;
-    padding: 0 5em;
+    padding: 1em 5em;
     background-color: #02727e;
     display: flex;
     align-items: center;
