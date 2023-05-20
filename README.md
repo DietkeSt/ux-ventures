@@ -58,6 +58,8 @@ Current year in footer: <https://stackoverflow.com/questions/4562587/shortest-wa
 
 Open in new window: https://stackoverflow.com/questions/12939928/make-a-link-open-a-new-window-not-tab
 
+Connecting form to Google Spreadsheet: https://dev.to/kromate/connecting-your-html-forms-to-a-google-spreadsheet-p9h
+
 ##Content
 
 ##Media
