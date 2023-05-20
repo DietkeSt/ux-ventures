@@ -232,7 +232,7 @@ nav ul {
 .about-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: stretch;
     width: 100%;
 }
@@ -240,7 +240,8 @@ nav ul {
 .about-intro {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     box-sizing: border-box;
     margin: 0 2em 2em 2em;
@@ -249,8 +250,8 @@ nav ul {
 .about-services {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 46%;
+    justify-content: center;
+    width: 100%;
     box-sizing: border-box;
     margin: 0 2em;
 }
@@ -258,8 +259,8 @@ nav ul {
 .about-benefits {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 46%;
+    justify-content: center;
+    width: 100%;
     box-sizing: border-box;
     margin: 0 2em;
 }
@@ -284,16 +285,15 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
     width: 100%;
-    position: relative;
 }
 
 .flex-item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     width: calc(33% - 4%);
     min-width: 25vh;
     box-sizing: border-box;
@@ -398,7 +398,7 @@ blockquote.q-card>.author::before {
     min-width: 25vh;
     box-sizing: border-box;
     position: relative;
-    margin: 0 2%;
+    margin: 0 2em;
 
 }
 
@@ -559,6 +559,6 @@ i.fa-brands.fa-linkedin:hover {
 
 
 
-/* tablet */
+    /* tablet */
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
