@@ -298,6 +298,9 @@ iframe {
     border-radius: 20px;
     border: solid 1px #040404;
     min-height: 450px;
+    min-width: 500px;
+    max-width: 1000px;
+    max-height: 800px;
 }
 
 
