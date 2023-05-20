@@ -151,7 +151,7 @@ nav ul {
 
 /* hero */
 
-#hero-outer {
+#hero {
     width: 100%;
     height: 50vh;
     position: relative;
@@ -161,7 +161,7 @@ nav ul {
     will-change: clip-path;
 }
 
-#hero {
+.hero-container {
     width: 100%;
     height: 50vh;
     background-image: url("../images/hero.jpg");
@@ -173,7 +173,7 @@ nav ul {
     will-change: transform;
 }
 
-#hero-text {
+.hero-text {
     font-family: Open-Sans, sans-serif;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -184,7 +184,7 @@ nav ul {
     z-index: 2;
 }
 
-#hero-text h1 {
+.hero-text h1 {
     color: #04A4AC;
     font-size: 32px;
     position: absolute;
@@ -194,7 +194,7 @@ nav ul {
     text-align: center;
 }
 
-#hero-text p {
+.hero-text p {
     color: #f4f4f4;
     font-size: 18px;
     line-height: 24px;
