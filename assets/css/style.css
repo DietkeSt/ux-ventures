@@ -49,6 +49,8 @@ h4 {
     font-family: Open-Sans, sans-serif;
     font-size: 18px;
     margin-bottom: 20px;
+    margin-top: 30px;
+}
 }
 
 a:hover {
@@ -282,6 +284,7 @@ nav ul {
     justify-content: space-between;
     align-items: stretch;
     width: 100%;
+    position: relative;
 }
 
 .flex-item {
@@ -298,9 +301,6 @@ iframe {
     border-radius: 20px;
     border: solid 1px #040404;
     min-height: 450px;
-    min-width: 500px;
-    max-width: 1000px;
-    max-height: 800px;
 }
 
 
@@ -375,10 +375,6 @@ blockquote.q-card>.author::before {
 
 #book-call ul {
     padding-left: 20px;
-}
-
-#book-call h4 {
-    margin-top: 30px;
 }
 
 .book-call-photo img {
