@@ -769,6 +769,10 @@ i.fa-brands.fa-linkedin:hover {
     #book-call img {
         margin-bottom: 2em;
     }
+
+    .contact-form {
+        width: 100%;
+    }
 }
 
 /* tablet */
