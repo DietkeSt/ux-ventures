@@ -603,12 +603,43 @@ i.fa-brands.fa-linkedin:hover {
         padding: 0;
         line-height: 150%;
         letter-spacing: 1px;
+        width: 100%;
+    }
+
+    h1 {
+        color: #f4f4f4;
+    }
+
+    h1,
+    h2 {
+        font-size: 21px;
+        margin-bottom: 2em;
+    }
+
+    h3 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 600;
+        font-family: Lato, sans-serif;
+        text-transform: uppercase;
+        color: #040404;
+    }
+
+
+
+    #hero p {
+        display: none;
+    }
+
+    div.hero-text {
+
+        width: 100%;
     }
 
     #about,
     #testimonials,
     #book-call {
-        padding: 5em 3em;
+        padding: 2em;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -626,6 +657,7 @@ i.fa-brands.fa-linkedin:hover {
 
     .logo img {
         margin: 1em;
+        size-adjust: 50%;
     }
 
     nav {
@@ -716,6 +748,7 @@ i.fa-brands.fa-linkedin:hover {
         line-height: 150%;
     }
 
+
     #about ul {
         list-style-position: initial;
         margin-bottom: 1em;
@@ -737,7 +770,7 @@ i.fa-brands.fa-linkedin:hover {
     }
 
     .flex-item {
-        width: unset;
+        width: 100%;
     }
 
     iframe {
@@ -754,7 +787,7 @@ i.fa-brands.fa-linkedin:hover {
     .call-item-1,
     .call-item-2,
     .call-item-3 {
-        width: unset;
+        width: 100%;
         margin: 1em;
     }
 
@@ -770,8 +803,19 @@ i.fa-brands.fa-linkedin:hover {
         margin-bottom: 2em;
     }
 
-    .contact-form {
+    .contact-form,
+    .about-intro,
+    .about-services,
+    .about-benefits,
+    .about-container,
+    .qcards {
         width: 100%;
+    }
+
+    .contact-form .text-input,
+    .contact-form .text-input-long {
+        width: 100%;
+
     }
 }
 
