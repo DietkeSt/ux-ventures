@@ -601,7 +601,6 @@ i.fa-brands.fa-linkedin:hover {
     body {
         margin: 0;
         padding: 0;
-        line-height: 150%;
         letter-spacing: 1px;
         width: 100%;
     }
@@ -625,7 +624,13 @@ i.fa-brands.fa-linkedin:hover {
         color: #040404;
     }
 
-
+    .logo img {
+        max-width: 200px;
+        margin: 0 auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        align-content: center;
+    }
 
     #hero p,
     #about h3,
@@ -655,11 +660,6 @@ i.fa-brands.fa-linkedin:hover {
         display: flex;
         flex-direction: column;
         align-items: left;
-    }
-
-    .logo img {
-        margin: 1em;
-        size-adjust: 50%;
     }
 
     nav {
