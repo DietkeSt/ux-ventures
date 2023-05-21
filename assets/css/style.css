@@ -627,7 +627,9 @@ i.fa-brands.fa-linkedin:hover {
 
 
 
-    #hero p {
+    #hero p,
+    #about h3,
+    .book-call-text h3 {
         display: none;
     }
 
@@ -750,7 +752,6 @@ i.fa-brands.fa-linkedin:hover {
 
 
     #about ul {
-        list-style-position: initial;
         margin-bottom: 1em;
     }
 
@@ -776,6 +777,13 @@ i.fa-brands.fa-linkedin:hover {
     iframe {
         margin-bottom: 1em;
         margin-top: 1em;
+    }
+
+
+
+    blockquote.q-card {
+        margin: unset;
+        margin-bottom: 1em;
     }
 
     .container-book-call {
@@ -810,6 +818,7 @@ i.fa-brands.fa-linkedin:hover {
     .about-container,
     .qcards {
         width: 100%;
+        margin: 0;
     }
 
     .contact-form .text-input,
