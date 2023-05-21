@@ -92,7 +92,11 @@ header {
     display: flex;
     flex-flow: row;
     align-items: center;
-    justify-content: space-between;
+}
+
+nav {
+    position: absolute;
+    right: 5em;
 }
 
 .menu {
@@ -100,8 +104,6 @@ header {
     letter-spacing: 4px;
     text-transform: uppercase;
     display: flex;
-    justify-items: flex-end;
-
 }
 
 .menu li {
@@ -140,7 +142,7 @@ header {
 
 nav ul {
     display: flex;
-    flex-direction: reverse;
+    flex-direction: row;
     justify-content: flex-end;
 }
 
