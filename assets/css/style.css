@@ -90,6 +90,7 @@ header {
 
 .header-content {
     display: flex;
+    flex-flow: row;
     align-items: center;
     justify-content: space-between;
 }
@@ -99,21 +100,42 @@ header {
     letter-spacing: 4px;
     text-transform: uppercase;
     display: flex;
-    justify-content: flex-end;
+    justify-items: flex-end;
+
 }
 
 .menu li {
     list-style-type: none;
-    padding-right: 5em;
+    margin: 1em;
 }
 
 .menu a {
     text-decoration: none;
     color: inherit;
+    opacity: 1;
+    position: relative;
+}
+
+.menu a::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: #04A4AC;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -0.5em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+}
+
+.menu a:hover::before {
+    transform: scale(1, 1);
 }
 
 .menu a:hover {
-    text-decoration: underline;
+    color: #04A4AC;
 }
 
 nav ul {
@@ -123,6 +145,10 @@ nav ul {
 }
 
 .nav-toggle {
+    display: none;
+}
+
+nav .book-call-link-li {
     display: none;
 }
 
@@ -141,6 +167,10 @@ input.btn-book-call-secondary {
     box-sizing: border-box;
     padding: 10px;
     letter-spacing: 4px;
+}
+
+a.btn-book-call-secondary::before {
+    all: unset;
 }
 
 a.btn-book-call-secondary:hover,
@@ -567,11 +597,12 @@ i.fa-brands.fa-linkedin:hover {
     body {
         margin: 0;
         padding: 0;
+        line-height: 150%;
+        letter-spacing: 1px;
     }
 
     header {
         width: 100%;
-        position: sticky;
     }
 
     .header-content {
@@ -610,19 +641,6 @@ i.fa-brands.fa-linkedin:hover {
     nav a {
         opacity: 0;
         transition: opacity 150ms ease-in-out;
-    }
-
-    nav a:hover {
-        color: white;
-    }
-
-    nav a.btn-book-call-secondary {
-        background-color: none;
-        border: none;
-        color: #040404;
-        font-weight: 300;
-        box-sizing: none;
-        padding: 0;
     }
 
     .nav-toggle {
@@ -673,11 +691,157 @@ i.fa-brands.fa-linkedin:hover {
         transition: opacity 250ms ease-in-out 250ms;
     }
 
+    nav .book-call-button-li {
+        display: none;
+    }
 
+    nav .book-call-link-li {
+        all: unset;
+        font-family: Lato;
+        font-weight: 300;
+        margin: 1em;
+        line-height: 150%;
+    }
 
+    #about ul {
+        list-style-position: initial;
+        margin-bottom: 1em;
+    }
 
+    #about li {
+        margin-bottom: 0.5em;
+    }
 
+    #about h4 {
+        margin-top: 1em;
+    }
 
-    /* tablet */
+    .flexbox {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
 
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
+    iframe {
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    .container-book-call {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .call-item-1,
+    .call-item-2,
+    .call-item-3 {
+        width: unset;
+        margin: 1em;
+    }
+
+    #book-call ul {
+        margin-bottom: 5em;
+    }
+
+    #book-call img {
+        margin-bottom: 2em;
+    }
+}
+
+/* tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1325px) {
+
+    .header-content {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    body {
+        line-height: 150%;
+        letter-spacing: 2px;
+    }
+
+    .logo img {
+        margin: 1em;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+
+    nav ul {
+        margin: 1em;
+    }
+
+    #about ul {
+        list-style-position: initial;
+        margin-bottom: 1em;
+    }
+
+    #about li {
+        margin-bottom: 0.5em;
+    }
+
+    #about h4 {
+        margin-top: 1em;
+    }
+
+    #about,
+    #testimonials,
+    #book-call {
+        padding: 5em 3em;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .flexbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-item {
+        width: unset;
+    }
+
+    .q-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+    }
+
+    iframe {
+        margin: 1em;
+    }
+
+    .container-book-call {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .call-item-1,
+    .call-item-2,
+    .call-item-3 {
+        width: unset;
+        margin: 1em;
+    }
+
+    #book-call ul {
+        margin-bottom: 5em;
+    }
+
+    #book-call img {
+        margin-bottom: 2em;
+    }
