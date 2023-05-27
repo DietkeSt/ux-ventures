@@ -594,16 +594,17 @@ i.fa-brands.fa-linkedin:hover {
 #thankyou {
     width: 100%;
     height: auto;
-    min-height: 50vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #f4f4f4;
 }
 
 .thankyou-container {
     width: 50%;
-    min-height: 50vh;
+    min-height: 70vh;
     height: auto;
     display: flex;
     flex-direction: column;
