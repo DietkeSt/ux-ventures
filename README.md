@@ -14,7 +14,8 @@ Responsive screenshots:
 <br>
 
 ## User Experience
-<hr>
+
+<br>
 
 ### User Stories
 
@@ -71,7 +72,8 @@ Responsive screenshots:
 <br>
 
 ## Technologies Used
-<hr>
+
+<br>
 
 ### Languages
 - HTML5
@@ -86,7 +88,8 @@ Responsive screenshots:
 <br>
 
 ## Features
-<hr>
+
+<br>
 
 ### Existing Features
 
@@ -106,7 +109,8 @@ Responsive screenshots:
 <br>
 
 ## Testing
-<hr>
+
+<br>
 
 ### Validator Testing
 
@@ -125,7 +129,8 @@ Responsive screenshots:
 <br>
 
 ## Credits
-<hr>
+
+<br>
 
 #### W3Schools
 
