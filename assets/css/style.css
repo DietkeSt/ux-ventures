@@ -589,6 +589,22 @@ i.fa-brands.fa-linkedin:hover {
     transform: scale(1.5);
 }
 
+/* thank you page styling */
+
+#thankyou {
+    height: auto;
+    padding: 5em 5em 10em 5em;
+    min-height: 75vh;
+}
+
+.thank-you-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+}
+
 /* responsive styling */
 
 /* mobile */
