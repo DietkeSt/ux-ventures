@@ -73,8 +73,15 @@ Responsive screenshots:
 ## Technologies Used
 <hr>
 
-### Languages Used
-HTML5, CSS3
+### Languages
+- HTML5
+- CSS3
+- Javascript
+
+### Software
+
+- Balsamiq for Wireframe creation
+- Canva for Logo creation and screenshots
 
 <br>
 
@@ -83,9 +90,18 @@ HTML5, CSS3
 
 ### Existing Features
 
+- Home page
+- About section
+- Student Testimonials section
+- Book Call/Contact section
+
 <br>
 
-### Features Left To Implement
+### Feature Ideas To Implement
+
+- Resource section
+- Career Tips section
+- Paid Services
 
 <br>
 
@@ -145,10 +161,14 @@ HTML5, CSS3
 
 ### Media
 
-logo created by myself
-book-call photo of Kim Steindel with approval of use
+[Logo](/assets/images/logo.png)
+- Created by myself (Dietke Steindel)
 
-"hero.png" Pexels: <https://www.pexels.com/de-de/foto/weisses-druckerpapier-196645/>
+[Portrait image of Kim Steindel](/assets/images/book-call.png)
+- Used book-call.png image of Kim Steindel with approval
+
+[Hero](https://www.pexels.com/de-de/foto/weisses-druckerpapier-196645/)
+- Found on Pexels.com
 
 <br>
 
