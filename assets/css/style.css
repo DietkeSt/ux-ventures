@@ -204,7 +204,7 @@ input.btn-book-call-secondary:hover {
 .hero-container {
     width: 100%;
     height: 50vh;
-    background-image: url("../images/hero.jpg");
+    background-image: url("/assets/images/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     animation: scaling-hero-anim 4s 0.25s cubic-bezier(0, 0.71, 0.4, 0.97) forwards;
@@ -592,17 +592,79 @@ i.fa-brands.fa-linkedin:hover {
 /* thank you page styling */
 
 #thankyou {
+    width: 100%;
     height: auto;
-    padding: 5em 5em 10em 5em;
-    min-height: 75vh;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.thank-you-container {
+.thankyou-container {
+    width: 50%;
+    min-height: 50vh;
+    height: auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    align-items: stretch;
-    width: 100%;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    animation: clip-hero-anim 1.25s cubic-bezier(0.29, 0.8, 0.8, 0.98);
+    will-change: clip-path;
+    margin: 5em;
+    border: solid 2px #04A4AC;
+    border-radius: 20px;
+}
+
+.thankyou-text {
+    font-family: Open-Sans, sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.thankyou-text p {
+    color: #f4f4f4;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+a.btn-thank-you-return {
+    text-decoration: none;
+    border-radius: 13px;
+    border: 2px solid;
+    color: #04A4AC;
+    background-color: #f4f4f4;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    letter-spacing: 4px;
+    margin: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+a.btn-thank-you-return:hover {
+    text-decoration: none;
+    background-color: #04A4AC;
+    border-color: #04A4AC;
+    color: #f4f4f4;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thankyou-header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.thankyou-header-content .logo img {
+    height: 50px;
+    margin: 2em;
 }
 
 /* responsive styling */
@@ -939,3 +1001,4 @@ i.fa-brands.fa-linkedin:hover {
     #book-call img {
         margin-bottom: 2em;
     }
+}
