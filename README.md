@@ -93,10 +93,47 @@ Responsive screenshots:
 
 ### Existing Features
 
-- Home page
-- About section
-- Student Testimonials section
-- Book Call/Contact section
+#### Navigation Bar
+
+- Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+- This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+
+IMAGE
+
+#### Hero Image
+
+- The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
+- This section introduces the user to Love Running with an eye catching animation to grab their attention
+
+IMAGE
+
+#### About Section
+
+- The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
+- This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+
+IMAGE
+
+#### Testimonials Section
+
+- This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
+- This section will be updated as these times change to keep the user up to date.
+
+IMAGE
+
+#### Book Call Section
+
+- This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
+- This section will be updated as these times change to keep the user up to date.
+
+IMAGE
+
+#### Footer
+
+- The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
+- The footer is valuable to the user as it encourages them to keep connected via social media
+
+IMAGE
 
 <br>
 
@@ -112,7 +149,24 @@ Responsive screenshots:
 
 <br>
 
+### Expected
+
+
+
+<br>
+
 ### Validator Testing
+
+Validator Testing
+HTML
+No errors were returned when passing through the official W3C validator
+CSS
+No errors were found when passing through the official (Jigsaw) validator
+If errors list under Fixed Bugs
+
+Manual testing for each section
+and results and comment
+
 
 <br>
 
@@ -122,9 +176,21 @@ Responsive screenshots:
 
 ### Unfixed Bugs
 
+- Kept Logo as is.
+- Margin in Book-Call section between Button and list.
+
 <br>
 
 ### Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+
 
 <br>
 
@@ -162,19 +228,21 @@ Responsive screenshots:
 
 ### Content
 
+- The text on this website is taken from this website --LINK---- as was written by Kim Steindel (used with approval).
+- The icons on this website were taken from Font Awesome --LINK----.
+- The testimonials and videos were taken from this YouTube Channel --LINK---- (used with approval).
+
 <br>
 
 ### Media
 
-[Logo](/assets/images/logo.png)
-- Created by myself (Dietke Steindel)
-
-[Portrait image of Kim Steindel](/assets/images/book-call.png)
-- Used book-call.png image of Kim Steindel with approval
-
-[Hero](https://www.pexels.com/de-de/foto/weisses-druckerpapier-196645/)
-- Found on Pexels.com
+- The [Logo](/assets/images/logo.png) was created by myself (Dietke Steindel) with the help of paint and Canva.
+- The [Book-call image of Kim Steindel](/assets/images/book-call.png) was used with Kim's approval.
+- The [Hero image](https://www.pexels.com/de-de/foto/weisses-druckerpapier-196645/) was found on open source website Pexels.com.
 
 <br>
 
 ### Acknowledgement
+
+- Thanks to my husband, Kim Steindel, for providing written content for the website.
+- Thanks to my mentor, Iuliia Konovalova, for providing great guidance and tips for this project.
