@@ -1,16 +1,68 @@
-#UX Ventures
+# UX Ventures
 
+UX Ventures is a Career Coaching homepage that offers assistance in helping UX Design students finding a job, getting a promotion, or landing a freelance contract. 
+The goal is for the students to book a career coaching call.
+
+[Deployed UX Ventures Ltd. Homepage](https://dietkest.github.io/ux-ventures/index.html)
+
+[UX Ventures repository on GitHub](https://github.com/DietkeSt/ux-ventures)
+
+Responsive screenshots:
+
+![UX Ventures screenshots for different screen sizes](/assets/images/ux-ventures-screenshots.png)
+
+## User Experience
+
+Project Idea
 UX Ventures homepage, with the goal to sell Career packages to visitors. The visitors will be UX Design students that reach the page via Youtube videos, or Social Media (LinkedIn) posts.
+User Stories
+User
+User Story
+Success Criteria
+Notes
+First Time Visitor:
+UX Design Student
+As a user, I want to be able to book 1on1 coaching to help me with my job interviews.
+We know this to be true, if a user books a 1on1 coaching call.
+I think adding a Coaching section with a button to book 1on1 coaching would help the user.
+Returning Visitor:
+Student
+As a user, I want to have access to a Resource section with files to help me with my application.
 
---Screenshot
+We know this to be true, if a user downloads a file from the Resource section.
+I think adding a link to the  Resources page in the navigation should help the user.
+Frequent Visitor
+As a user, I want to see Career Tips so that I can see relevant advice for landing a job in UX.
+We know this to be true, if a user engages with the Career Tips section.
+I think adding a link to the Career Tips page that includes video or blog updates would help the user.
 
---Link to live deployed website
+Wireframes
+Home, About, Testimonial, Call.png
+Resources V1.png
+Resources V2.png
 
-- Repository: https://github.com/DietkeSt/ux-ventures
+Repository
+<https://github.com/DietkeSt/ux-ventures>
 
-##User Experience
+Style Guide
+Colors:
 
-###User Stories
+#04A4AC
+#040404
+
+Font:
+
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&display=swap');
+</style>
+
+Logo:
+
+
+### User Stories
 
 1. First time visitor goal: As a user, I want to be able to book 1on1 coaching to help me with my job interviews.
     - Success criteria: We know this to be true, if a user books a 1on1 coaching call.
@@ -19,30 +71,30 @@ UX Ventures homepage, with the goal to sell Career packages to visitors. The vis
 3. Frequent user goal: As a user, I want to see Career Tips so that I can see relevant advice for landing a job in UX.
     - Success criteria: We know this to be true, if a user engages with the Career Tips section.
 
-###Wireframes
+### Wireframes
 
-##Technologies Used
+## Technologies Used
 
-###Languages Used
+### Languages Used
 HTML5, CSS3
 
-##Features
+## Features
 
-###Existing Features
+### Existing Features
 
-###Features Left To Implement
+### Features Left To Implement
 
-##Testing
+## Testing
 
-###Validator Testing
+### Validator Testing
 
-###Fixed Bugs
+### Fixed Bugs
 
-###Unfixed Bugs
+### Unfixed Bugs
 
-##Deployment
+### Deployment
 
-##Credits
+## Credits
 
 Flex Direction code found here: <https://www.w3schools.com/cssref/css3_pr_flex-direction.php>
 Hero Animation code found here: <https://freefrontend.com/css-hero-effects/>
@@ -62,11 +114,13 @@ Connecting form to Google Spreadsheet: https://dev.to/kromate/connecting-your-ht
 
 Form action: https://formdump.codeinstitute.net/ (using code institute formdump)
 
-##Content
+### Content
 
-##Media
+### Media
 
 logo created by myself
 book-call photo of Kim Steindel with approval of use
 
 "hero.png" Pexels: <https://www.pexels.com/de-de/foto/weisses-druckerpapier-196645/>
+
+### Acknowledgement
