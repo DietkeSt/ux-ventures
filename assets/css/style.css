@@ -67,7 +67,6 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     min-height: 50vh;
 }
 
@@ -346,6 +345,8 @@ iframe {
     border: solid 1px #040404;
     min-height: 30vh;
     min-width: 40vh;
+    width: 90%;
+    height: 100%;
 }
 
 
@@ -825,6 +826,10 @@ i.fa-brands.fa-linkedin:hover {
     .contact-form .text-input-long {
         width: 100%;
 
+    }
+
+    #footer {
+        padding: 1em 2em;
     }
 }
 
