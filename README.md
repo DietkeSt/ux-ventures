@@ -49,21 +49,21 @@ Responsive screenshots:
 
 #### Font
 
-[Google Fonts import URL](https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&display=swap)
+- [Google Fonts import URL](https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&display=swap)
 
-**Primary font:** 'Lato', sans-serif;
+- **Primary font:** 'Lato', sans-serif;
 
-**Secondary font:** 'Open Sans', sans-serif;
+- **Secondary font:** 'Open Sans', sans-serif;
 
-**h1:**  #04A4AC, 32px, Open Sans
+- **h1:**  #04A4AC, 32px, Open Sans
 
-**h2:** #04A4AC, 28px, Open Sans
+- **h2:** #04A4AC, 28px, Open Sans
 
-**h3:** #04A4AC, 21px, Open Sans
+- **h3:** #04A4AC, 21px, Open Sans
 
-**p:** #040404, 18px, Lato
+- **p:** #040404, 18px, Lato
 
-**li:** #040404, 18px, Lato
+- **li:** #040404, 18px, Lato
 
 #### Logo
 
