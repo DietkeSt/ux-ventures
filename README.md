@@ -11,7 +11,7 @@ The goal is for the students to book a career coaching call.
 
 Responsive screenshots:
 
-  ![UX Ventures screenshots for different screen sizes](/assets/images/ux-ventures-screenshots.png)
+  ![UX Ventures screenshots for different screen sizes](/documentation/ux-ventures-screenshots.png)
 
 <br>
 
@@ -35,7 +35,7 @@ Responsive screenshots:
 
 ### Wireframes
 
-  ![UX Ventures wireframe for first website draft](/assets/images/ux-ventures-wireframe.png)
+  ![UX Ventures wireframe for first website draft](/documentation/ux-ventures-wireframe.png)
 
 <br>
 
@@ -43,11 +43,11 @@ Responsive screenshots:
 
 #### Buttons
 
-  ![UX Ventures logo](/assets/images/buttons.png)
+  ![UX Ventures logo](/documentation/buttons.png)
 
 #### Colors
 
-  ![Colors used on website: #04A4AC, #02727e, #040404, #f4f4f4](/assets/images/colors.png)
+  ![Colors used on website: #04A4AC, #02727e, #040404, #f4f4f4](/documentation/colors.png)
 
 #### Font
 
@@ -107,7 +107,7 @@ Responsive screenshots:
 - The navigation bar on the thankyou.html page is different as it only links back to the Home page and not the other sections.
 - The navigation bar allows the user to easily navigate from section to section, and easily navigate back to the Home page from the Thank you page.
 
-  ![Navigation Bar for UX Ventures website with different resolutions and hover effects](/assets/images/navigation.png)
+  ![Navigation Bar for UX Ventures website with different resolutions and hover effects](/documentation/navigation.png)
 
 #### Hero Image
 
@@ -115,14 +115,14 @@ Responsive screenshots:
 - The hero section text is shorted on mobile resolution to not overwhelm the user.
 - This section is a quick intro to the website and its purpose with an animation effect to grab the user's attention.
 
-  ![Hero section for UX Ventures website with different resolutions](/assets/images/hero-features.png)
+  ![Hero section for UX Ventures website with different resolutions](/documentation/hero-features.png)
 
 #### About Section
 
 - The about section gives the user an overview of the background of Kim Steindel, and the services and benefits working with UX Ventures.
 - Upon learning more about the background and benefits, this should entice the user in booking a career coaching call.
 
-  ![About section for UX Ventures website with different resolutions](/assets/images/about.png)
+  ![About section for UX Ventures website with different resolutions](/documentation/about.png)
 
 #### Testimonials Section
 
@@ -130,7 +130,7 @@ Responsive screenshots:
 - The embedded YouTube playlist will not automatically play, and can be opened directly on YouTube as well, if the user wishes to do so.
 - This section will be allow the user to get an insight on further benefits of using career coaching services and should entice the user to book a call.
 
-  ![Testimonials section for UX Ventures website with different resolutions](/assets/images/testimonials.png)
+  ![Testimonials section for UX Ventures website with different resolutions](/documentation/testimonials.png)
 
 #### Book Call Section
 
@@ -139,7 +139,7 @@ Responsive screenshots:
 - This section also includes a portrait image of the career coach to connect with the user on a personal level.
 - This section also includes a contact form with a secondary button to give the user the option to reach out first, if needed.
 
-  ![Book Call section for UX Ventures website with different resolutions](/assets/images/book-call-features.png)
+  ![Book Call section for UX Ventures website with different resolutions](/documentation/book-call-features.png)
 
 #### Footer
 
@@ -147,7 +147,7 @@ Responsive screenshots:
 - All links will open in a new tab for easier navigation, and feature a hover effect.
 - This section helps the user to connect with UX Ventures on Social Media.
 
-  ![Book Call section for UX Ventures website with different resolutions](/assets/images/footer.png)
+  ![Book Call section for UX Ventures website with different resolutions](/documentation/footer.png)
 
 <br>
 
@@ -211,9 +211,10 @@ and results and comment
 #### Steps
 
 1. Navigate to the GitHub repository for UX Ventures.
-2. Click on the Settings tab.
-3. Select the Master Branch from the source section drop-down menu.
-4. Click Save.
+2. Click on the "Settings" tab and navigate to "Pages."
+3. Select "Deploy from branch" for "Source."
+4. Choose the "main" branch and save the changes.
+5. It takes a few minutes until the deployed website is created and visible.
 
 - Deployed website can be found here: https://dietkest.github.io/ux-ventures/ 
 
@@ -258,9 +259,10 @@ and results and comment
 
 ### Content
 
-- The text on this website is taken from this website --LINK---- as was written by Kim Steindel (used with approval).
-- The icons on this website were taken from Font Awesome --LINK----.
-- The testimonials and videos were taken from this YouTube Channel --LINK---- (used with approval).
+- The code on this website was created by the developer, Dietke Steindel, unless otherwise credited.
+- The text on this website is taken from [this website](https://kimsteindel.weebly.com/), and was written by Kim Steindel (used with approval).
+- The icons on this website were taken from [Font Awesome](https://fontawesome.com/).
+- The testimonials and videos were taken from this [YouTube channel](https://www.youtube.com/@kimsteindel227) (used with approval).
 
 <br>
 
@@ -274,5 +276,5 @@ and results and comment
 
 ### Acknowledgement
 
-- Thanks to my husband, Kim Steindel, for providing written content for the website.
-- Thanks to my mentor, Iuliia Konovalova, for providing great guidance and tips for this project.
+- Thanks to my husband, (the carrer coach) **Kim Steindel**, for providing written content for the website.
+- Thanks to my mentor, **Iuliia Konovalova**, for providing great guidance and tips for this project.
