@@ -270,15 +270,29 @@ Responsive screenshots:
 
 ### Validator Testing
 
-Validator Testing
-HTML
-No errors were returned when passing through the official W3C validator
-CSS
-No errors were found when passing through the official (Jigsaw) validator
-If errors list under Fixed Bugs
+#### HTML
 
-Manual testing for each section
-and results and comment
+- No errors were returned when passing through the official W3C validator
+ 
+    ![html validator testing image](/documentation/html-validator.png)
+    
+#### CSS
+
+- No errors were found when passing through the official (Jigsaw) validator.
+
+    ![html validator testing image](/documentation/css-validator.png)
+
+- 7 warnings were found when passing through the official (Jigsaw) validator.
+
+    ![html validator testing image](/documentation/css-validator-warnings.png)
+
+    - 3 warnings regarding button background-color and border-color being the same value.
+      - **Comment**: This was intended as only the background-color should change upon hover, not the border-color.
+
+    - 4 warnings regarding the use of calc variables: "Due to their dynamic nature, CSS variables are currently not statically checked".
+
+
+
 
 <br>
 
