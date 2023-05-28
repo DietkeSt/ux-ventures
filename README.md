@@ -291,9 +291,6 @@ Responsive screenshots:
 
     - 4 warnings regarding the use of calc variables: "Due to their dynamic nature, CSS variables are currently not statically checked".
 
-
-
-
 <br>
 
 ### Accessibility & Performance
@@ -313,6 +310,11 @@ Responsive screenshots:
 <br>
 
 ### Fixed Bugs
+
+- The image files links for the background images would not properly load, so had to adjust links for the background images to display correctly on deployment.
+- On mobile resolution, the hero text was not centered. This was caused by margin set for the container which I removed.
+- On mobile, the embedded iframe did not have the correct margin set for the column display. Corrected the top margin for cohesive experience for the user.
+- Footer would not display any styling, this was caused by a missing CSS closing tag for the book-call section. Adding the missing tag solved the issue.
 
 <br>
 
@@ -334,10 +336,6 @@ Responsive screenshots:
 5. It takes a few minutes until the deployed website is created and visible.
 
 - Deployed website can be found here: https://dietkest.github.io/ux-ventures/ 
-
-#### Issues
-
-- The image files links for the background images would not properly load, so had to adjust links for the background images to display correctly on deployment.
 
 <br>
 
