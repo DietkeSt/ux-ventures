@@ -153,9 +153,20 @@ Responsive screenshots:
 
 ### Feature Ideas To Implement
 
-- Resource section
-- Career Tips section
-- Paid Services
+#### Resource section
+
+- The resource section is needed, so that users want to revisit the website, even when not booking a coaching call.
+- This section should offer downloadable content, like material on how to write better CVs, etc.
+
+#### Career Tips section
+
+- The career tips section is needed for users to re-visit the website.
+- This section should include career tips in blog format and video format. They will be useful for the user when preparing for their next career step.
+
+#### Paid Services
+
+- The paid services could be implemented for the call-book and resource sections.
+- This would involve implementing a solution for direct online payments when users want to download content or book a coaching call.
 
 <br>
 
