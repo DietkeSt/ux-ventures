@@ -599,7 +599,9 @@ i.fa-brands.fa-linkedin:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url('/ux-ventures/assets/images/hero.jpg');
+    background-image: url('/assets/images/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #f4f4f4;
 }
 
@@ -682,11 +684,12 @@ a.btn-thank-you-return:hover {
         width: 100%;
     }
 
-    h1 {
-        color: #f4f4f4;
-    }
+        h1 {
+            color: #f4f4f4;
+            font-size: 21px;
+            margin-bottom: 0;
+        }
 
-    h1,
     h2 {
         font-size: 21px;
         margin-bottom: 2em;
@@ -713,11 +716,6 @@ a.btn-thank-you-return:hover {
     #about h3,
     .book-call-text h3 {
         display: none;
-    }
-
-    div.hero-text {
-
-        width: 100%;
     }
 
     #about,
@@ -907,9 +905,7 @@ a.btn-thank-you-return:hover {
 
 /* tablet */
 
-@media screen and (min-width: 768px) and (max-width: 1325px) {
-
-
+@media screen and (min-width: 768px) and (max-width: 1279px) {
 
     .header-content {
         display: flex;
