@@ -201,21 +201,25 @@ and results and comment
 
 ### Unfixed Bugs
 
-- Kept Logo as is.
-- Margin in Book-Call section between Button and list.
+- Kept Logo image in html, instead of uploading it as background image for the div. The margin would not work properly on the div.
+- Margin in Book-Call section for the ul is set to 5em, as the button would otherwise overlap with the text. Did not fix this further beyond the margin setting, as it consumed a lot of time to get to the bottom of why this issue was occuring.
 
 <br>
 
 ### Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+#### Steps
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+1. Navigate to the GitHub repository for UX Ventures.
+2. Click on the Settings tab.
+3. Select the Master Branch from the source section drop-down menu.
+4. Click Save.
 
+- Deployed website can be found here: https://dietkest.github.io/ux-ventures/ 
+
+#### Issues
+
+- The image files links for the background images would not properly load, so had to adjust links for the background images to display correctly on deployment.
 
 <br>
 
