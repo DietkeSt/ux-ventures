@@ -3,9 +3,9 @@
 UX Ventures is a Career Coaching homepage that offers assistance in helping UX Design students to find a job, get a promotion, or land a freelance contract. 
 The goal is for the students to book a career coaching call.
 
-[Deployed UX Ventures Ltd. Homepage](https://dietkest.github.io/ux-ventures/index.html)
+- [Deployed UX Ventures Ltd. Homepage](https://dietkest.github.io/ux-ventures/index.html)
 
-[UX Ventures repository on GitHub](https://github.com/DietkeSt/ux-ventures)
+- [UX Ventures repository on GitHub](https://github.com/DietkeSt/ux-ventures)
 
 Responsive screenshots:
 
@@ -76,14 +76,19 @@ Responsive screenshots:
 <br>
 
 ### Languages
-- HTML5
-- CSS3
-- Javascript
 
-### Software
+- HTML5: was used to create the structure and content throughout the website.
+- CSS3: was used to style the code throughout the website.
+- Javascript: was used for opening calendar in a new window, for automatically updating the footer year
 
-- Balsamiq for Wireframe creation
-- Canva for Logo creation and screenshots
+### Frameworks, Libraries & Programs
+
+- Balsamiq: was used for Wireframe creation.
+- Canva: was used for Logo creation and screenshots.
+- Codeanywhere: was used for version control and terminal used to push to GitHub.
+- GitHub: is used to store the project code and deployed website.
+- Google Fonts: were used to import "Lato" and "Open Sans" font into style.css file which is used throughout the website.
+- Fone Awesome: was used for all icons used throughout the website.
 
 <br>
 
