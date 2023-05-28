@@ -343,7 +343,7 @@ iframe {
     border-radius: 20px;
     border: solid 1px #040404;
     min-height: 30vh;
-    min-width: 40vh;
+    min-width: 35vh;
     width: 90%;
     height: 100%;
 }
@@ -684,11 +684,11 @@ a.btn-thank-you-return:hover {
         width: 100%;
     }
 
-        h1 {
-            color: #f4f4f4;
-            font-size: 21px;
-            margin-bottom: 0;
-        }
+    h1 {
+        color: #f4f4f4;
+        font-size: 21px;
+        margin-bottom: 0;
+    }
 
     h2 {
         font-size: 21px;
