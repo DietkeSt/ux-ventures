@@ -599,6 +599,7 @@ i.fa-brands.fa-linkedin:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-image: url('/ux-ventures/assets/images/hero.jpg');
     background-color: #f4f4f4;
 }
 
