@@ -1,3 +1,5 @@
+
+
 # UX Ventures
 
 UX Ventures is a Career Coaching homepage that offers assistance in helping UX Design students to find a job, get a promotion, or land a freelance contract. 
@@ -9,7 +11,7 @@ The goal is for the students to book a career coaching call.
 
 Responsive screenshots:
 
-![UX Ventures screenshots for different screen sizes](/assets/images/ux-ventures-screenshots.png)
+  ![UX Ventures screenshots for different screen sizes](/assets/images/ux-ventures-screenshots.png)
 
 <br>
 
@@ -33,7 +35,7 @@ Responsive screenshots:
 
 ### Wireframes
 
-![UX Ventures wireframe for first website draft](/assets/images/ux-ventures-wireframe.png)
+  ![UX Ventures wireframe for first website draft](/assets/images/ux-ventures-wireframe.png)
 
 <br>
 
@@ -41,11 +43,11 @@ Responsive screenshots:
 
 #### Buttons
 
-![UX Ventures logo](/assets/images/buttons.png)
+  ![UX Ventures logo](/assets/images/buttons.png)
 
 #### Colors
 
-![Colors used on website: #04A4AC, #02727e, #040404, #f4f4f4](/assets/images/colors.png)
+  ![Colors used on website: #04A4AC, #02727e, #040404, #f4f4f4](/assets/images/colors.png)
 
 #### Font
 
@@ -67,7 +69,7 @@ Responsive screenshots:
 
 #### Logo
 
-![UX Ventures logo](/assets/images/logo.png)
+  ![UX Ventures logo](/assets/images/logo.png)
 
 <br>
 
@@ -100,45 +102,52 @@ Responsive screenshots:
 
 #### Navigation Bar
 
-- Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-- This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+- Fully responsive and sticky navigation bar that includes links to the Home page, and the About, Testimonials, and Book Call sections.
+- The navigation bar is displayed in a hamburger menu on mobile.
+- The navigation bar on the thankyou.html page is different as it only links back to the Home page and not the other sections.
+- The navigation bar allows the user to easily navigate from section to section, and easily navigate back to the Home page from the Thank you page.
 
-IMAGE
+  ![Navigation Bar for UX Ventures website with different resolutions and hover effects](/assets/images/navigation.png)
 
 #### Hero Image
 
-- The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-- This section introduces the user to Love Running with an eye catching animation to grab their attention
+- The hero image is included in the hero section, which includes a text overlay to make sure the user knows the purpose of this website.
+- The hero section text is shorted on mobile resolution to not overwhelm the user.
+- This section is a quick intro to the website and its purpose with an animation effect to grab the user's attention.
 
-IMAGE
+  ![Hero section for UX Ventures website with different resolutions](/assets/images/hero-features.png)
 
 #### About Section
 
-- The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-- This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+- The about section gives the user an overview of the background of Kim Steindel, and the services and benefits working with UX Ventures.
+- Upon learning more about the background and benefits, this should entice the user in booking a career coaching call.
 
-IMAGE
+  ![About section for UX Ventures website with different resolutions](/assets/images/about.png)
 
 #### Testimonials Section
 
-- This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-- This section will be updated as these times change to keep the user up to date.
+- This gives the user an overview of career coaching experiences from past students in written form as well as video format.
+- The embedded YouTube playlist will not automatically play, and can be opened directly on YouTube as well, if the user wishes to do so.
+- This section will be allow the user to get an insight on further benefits of using career coaching services and should entice the user to book a call.
 
-IMAGE
+  ![Testimonials section for UX Ventures website with different resolutions](/assets/images/testimonials.png)
 
 #### Book Call Section
 
-- This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-- This section will be updated as these times change to keep the user up to date.
+- This section will allow the user to directly book a carrer coaching call, or send a contact message first.
+- The career coaching call booking button is using the primary button design to entice the user to preferably book a call, versus sending a message. 
+- This section also includes a portrait image of the career coach to connect with the user on a personal level.
+- This section also includes a contact form with a secondary button to give the user the option to reach out first, if needed.
 
-IMAGE
+  ![Book Call section for UX Ventures website with different resolutions](/assets/images/book-call-features.png)
 
 #### Footer
 
-- The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-- The footer is valuable to the user as it encourages them to keep connected via social media
+- The footer section includes a link to LinkedIn for UX Ventures, as well as a link to the developer's GitHub repository. The footer also contains the copyright statement.
+- All links will open in a new tab for easier navigation, and feature a hover effect.
+- This section helps the user to connect with UX Ventures on Social Media.
 
-IMAGE
+  ![Book Call section for UX Ventures website with different resolutions](/assets/images/footer.png)
 
 <br>
 
@@ -228,6 +237,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 - Tested using [bootstrap button](https://getbootstrap.com/docs/5.1/components/buttons/), but removed again.  
 - [SheetMonkey](https://sheetmonkey.io/) for form submission action and redirect.
+- Found info on using titles in html on [W3Doc](https://www.w3docs.com/snippets/html/how-to-add-a-mouseover-text-with-html.html).
 
 <br>
 
