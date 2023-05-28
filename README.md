@@ -86,11 +86,13 @@ Responsive screenshots:
 ### Frameworks, Libraries & Programs
 
 - Balsamiq: was used for Wireframe creation.
-- Canva: was used for Logo creation and screenshots.
+- Canva: was used for Logo creation and screenshots
+- Snagit: was used to convert screen recordings into GIFs.
 - Codeanywhere: was used for version control and terminal used to push to GitHub.
 - GitHub: is used to store the project code and deployed website.
 - Google Fonts: were used to import "Lato" and "Open Sans" font into style.css file which is used throughout the website.
-- Fone Awesome: was used for all icons used throughout the website.
+- Font Awesome: was used for all icons used throughout the website.
+- Google Drive: is used to store documentation GIFs and videos.
 
 <br>
 
@@ -149,6 +151,13 @@ Responsive screenshots:
 
   ![Book Call section for UX Ventures website with different resolutions](/documentation/footer.png)
 
+#### Thank You Page
+
+- The Thank You Page opens after a user submits a message via the contact form, so the user knows that the message was successfully sent.
+- The page includes a separate navigation with only the logo visible and a return to Home page button. This is done on purpose, to not overwhelm the user with too much content on the Thank You page.
+
+  ![Book Call section for UX Ventures website with different resolutions](/documentation/thank-you.png)
+
 <br>
 
 ### Feature Ideas To Implement
@@ -174,9 +183,88 @@ Responsive screenshots:
 
 <br>
 
-### Expected
+### Functionality & Responsiveness
 
+1. Browser test for functionality:
+   
+   - Chrome:
+    
+        ![Chrome functionality test](https://drive.google.com/uc?id=1RK5PuRC0ik2YZFpTtsdYW7MUmArzr4Gs)
+        
+   - Firefox:
+  
+        ![Firefox functionality test](https://drive.google.com/uc?id=1Rz2nKI9WJiPN6o1gEome-FKpBJdQl519)
+        
+   - Safari:
+  
+        ![Safari functionality test](https://drive.google.com/uc?id=1m330nqL1oNa-EJ6RP_0GF9Ku0vnds-IN)
 
+2. Responsiveness test:
+
+   - With [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/) Chrome extension:
+  
+        ![Responsive Viewer testing gif](https://drive.google.com/uc?id=1-QXmhwiXhVvg_kowmoCbNZCADV_PGKYT)
+        
+        Or, watch the Responsive Viewer testing video [here](https://drive.google.com/file/d/1mIZ2ADsKHXGSmtG08jh-rykGGGG1tS9x/view?usp=share_link)
+    
+   - [DevTools](https://developer.chrome.com/docs/devtools/):
+   
+        ![DevTools responsiveness testing gif](https://drive.google.com/uc?id=17kMDw10v71FkG4RSscJmUE0Oo-xh35Lw)
+        
+        Or, watch the DevTools testing video [here](https://drive.google.com/file/d/1V6tL2tVCKPUREmTmNhuY_raBfSHR8TZS/view?usp=sharing)
+   
+3. All links were tested as well, and are opening as expected.
+ 
+    #### Navigation
+
+   - **Logo**: By clicking on the logo the user is redirected to index.html.
+
+        - Test passed.
+   - **Home**: By clicking on Home the user is redirected to index.html.
+
+        - Test passed.
+   - **About**: By clicking on About the user is redirected to about section.
+
+        - Test passed.
+   - **Testimonials**: By clicking on Testimonials the user is redirected to testimonials section.
+
+        - Test passed.
+   - **Book Call**: By clicking on Book Call the user is redirected to book-call section.
+
+        - Test passed.
+    
+    #### Testimonial Section
+    
+   - **YouTube Video**: By clicking on the play button, the video start. By clicking on "Watch on Youtube" the user is redirected to [Youtube Playlist](https://www.youtube.com/watch?v=RE25PyaUTiU&list=PL9G_LUWtBLYO18IPrNxlQck5Sf8BLBzp1) in an external tab.
+
+        - Test passed.
+
+    #### Book Call Section
+ 
+   - **Book Call Button**: By clicking on the Book Call button a new window with a Google Calendar booking option is opening for the user.
+
+        - Test passed.
+   - **Form Submit Button**: By clicking on Send Message after the form is correctly filled out the user is redirected to thankyou.html
+
+        - Test passed.
+
+    #### Footer
+    
+   - **Developer GitHub**: By clicking on Dietke Steindel the user is redirected to https://github.com/DietkeSt/ which opens in a new tab.
+
+        - Test passed.
+   - **Social Media**: By clicking on the LinkedIn icon the user is redirected to https://www.linkedin.com/company/ux-ventures-ltd/ which opens in a new tab.
+
+        - Test passed.
+
+    #### Thank You Page
+    
+   - **Developer GitHub**: By clicking on the logo the user is redirected to index.html
+
+        - Test passed.
+   - **Social Media**: By clicking on the logo the user is redirected to index.html
+
+        - Test passed.
 
 <br>
 
@@ -192,6 +280,21 @@ If errors list under Fixed Bugs
 Manual testing for each section
 and results and comment
 
+<br>
+
+### Accessibility & Performance
+
+- Checked with lighthouse in devtools:
+
+  -   Desktop check was all above 90%:
+     ![Book Call section for UX Ventures website with different resolutions](/documentation/lighthouse-desktop.png)
+     
+  - Mobile test shows only 83% in Best Practices:
+    ![Book Call section for UX Ventures website with different resolutions](/documentation/lighthouse-mobile.png)
+
+    - Found issues to be related to embeded video playlist and logo.
+    - However, I could not verify any interference with  accessibility, or performance:
+     ![Book Call section for UX Ventures website with different resolutions](/documentation/lighthouse-mobile-bestpractices.png)
 
 <br>
 
@@ -254,6 +357,7 @@ and results and comment
 - Tested using [bootstrap button](https://getbootstrap.com/docs/5.1/components/buttons/), but removed again.  
 - [SheetMonkey](https://sheetmonkey.io/) for form submission action and redirect.
 - Found info on using titles in html on [W3Doc](https://www.w3docs.com/snippets/html/how-to-add-a-mouseover-text-with-html.html).
+- Followed along [Kevin Powell's video](https://www.youtube.com/watch?v=8QKOaTYvYUA) to create responsive navigation bar for mobile.
 
 <br>
 
@@ -278,3 +382,4 @@ and results and comment
 
 - Thanks to my husband, (the carrer coach) **Kim Steindel**, for providing written content for the website.
 - Thanks to my mentor, **Iuliia Konovalova**, for providing great guidance and tips for this project.
+- Thanks to Code Institute Slack community for feedback and help.
