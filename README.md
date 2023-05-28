@@ -69,7 +69,7 @@ Responsive screenshots:
 
 #### Logo
 
-  ![UX Ventures logo](/assets/images/logo.png)
+  ![UX Ventures logo](/documentation/logo.png)
 
 <br>
 
@@ -189,15 +189,15 @@ Responsive screenshots:
    
    - Chrome:
     
-        ![Chrome functionality test](https://drive.google.com/uc?id=1RK5PuRC0ik2YZFpTtsdYW7MUmArzr4Gs)
+        ![Chrome functionality test [open this link if GIF is not loading](https://drive.google.com/uc?id=1RK5PuRC0ik2YZFpTtsdYW7MUmArzr4Gs)](https://drive.google.com/uc?id=1RK5PuRC0ik2YZFpTtsdYW7MUmArzr4Gs)
         
    - Firefox:
   
-        ![Firefox functionality test](https://drive.google.com/uc?id=1Rz2nKI9WJiPN6o1gEome-FKpBJdQl519)
+        ![Firefox functionality test [open this link if GIF is not loading](https://drive.google.com/uc?id=1Rz2nKI9WJiPN6o1gEome-FKpBJdQl519)](https://drive.google.com/uc?id=1Rz2nKI9WJiPN6o1gEome-FKpBJdQl519)
         
    - Safari:
   
-        ![Safari functionality test](https://drive.google.com/uc?id=1m330nqL1oNa-EJ6RP_0GF9Ku0vnds-IN)
+        ![Safari functionality test [open this link if GIF is not loading](https://drive.google.com/uc?id=1m330nqL1oNa-EJ6RP_0GF9Ku0vnds-IN)](https://drive.google.com/uc?id=1m330nqL1oNa-EJ6RP_0GF9Ku0vnds-IN)
 
 2. Responsiveness test:
 
