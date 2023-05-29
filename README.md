@@ -43,7 +43,7 @@ Responsive screenshots:
 
 #### Buttons
 
-  ![UX Ventures logo](/documentation/buttons.png)
+  ![Image for button styling](/documentation/buttons.png)
 
 #### Colors
 
