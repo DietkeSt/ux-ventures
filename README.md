@@ -189,7 +189,7 @@ Responsive screenshots:
    
    - Chrome:
     
-        ![Chrome functionality test [open this link if GIF is not loading](https://drive.google.com/uc?id=1RK5PuRC0ik2YZFpTtsdYW7MUmArzr4Gs)](https://drive.google.com/uc?id=1RK5PuRC0ik2YZFpTtsdYW7MUmArzr4Gs)
+        ![Chrome functionality test](https://drive.google.com/uc?id=1RK5PuRC0ik2YZFpTtsdYW7MUmArzr4Gs)
         
    - Firefox:
   
