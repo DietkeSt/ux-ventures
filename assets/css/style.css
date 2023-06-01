@@ -344,8 +344,8 @@ input.btn-book-call-secondary:hover {
 iframe {
     border-radius: 20px;
     border: solid 1px #040404;
-    min-height: 30vh;
-    min-width: 35vh;
+    min-height: 35vh;
+    min-width: 45vh;
     width: 90%;
     height: 100%;
 }
@@ -675,6 +675,106 @@ a.btn-thank-you-return:hover {
 
 /* media queries */
 
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+    .header-content {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    body {
+        line-height: 150%;
+        letter-spacing: 2px;
+    }
+
+    .logo img {
+        margin: 1em;
+    }
+
+    nav {
+        all: unset;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+
+    nav ul {
+        margin: 1em;
+    }
+
+    #about ul {
+        margin-bottom: 1em;
+    }
+
+    #about li {
+        margin-bottom: 0.5em;
+    }
+
+    #about h4 {
+        margin-top: 1em;
+    }
+
+    #about,
+    #testimonials,
+    #book-call {
+        padding: 5em 3em;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .flexbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-item {
+        width: 100%;
+    }
+
+    .q-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+    }
+
+    iframe {
+        margin: 1em;
+        max-width: 75vh;
+        min-height: 40vh;
+    }
+
+    .container-book-call {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .call-item-1,
+    .call-item-2,
+    .call-item-3 {
+        width: unset;
+        margin: 1em;
+    }
+
+    #book-call ul {
+        margin-bottom: 5em;
+    }
+
+    #book-call img {
+        margin-bottom: 2em;
+    }
+}
+
+
 @media screen and (max-width: 767px) {
 
     body {
@@ -900,103 +1000,5 @@ a.btn-thank-you-return:hover {
 
     #footer {
         padding: 1em 2em;
-    }
-}
-
-/* tablet */
-
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-
-    .header-content {
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    body {
-        line-height: 150%;
-        letter-spacing: 2px;
-    }
-
-    .logo img {
-        margin: 1em;
-    }
-
-    nav {
-        all: unset;
-    }
-
-    .menu {
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        justify-content: center;
-    }
-
-    nav ul {
-        margin: 1em;
-    }
-
-    #about ul {
-        margin-bottom: 1em;
-    }
-
-    #about li {
-        margin-bottom: 0.5em;
-    }
-
-    #about h4 {
-        margin-top: 1em;
-    }
-
-    #about,
-    #testimonials,
-    #book-call {
-        padding: 5em 3em;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-    }
-
-    .flexbox {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .flex-item {
-        width: unset;
-    }
-
-    .q-cards {
-        display: flex;
-        flex-direction: column;
-        justify-content: stretch;
-    }
-
-    iframe {
-        margin: 1em;
-    }
-
-    .container-book-call {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .call-item-1,
-    .call-item-2,
-    .call-item-3 {
-        width: unset;
-        margin: 1em;
-    }
-
-    #book-call ul {
-        margin-bottom: 5em;
-    }
-
-    #book-call img {
-        margin-bottom: 2em;
     }
 }
