@@ -353,9 +353,9 @@ Responsive screenshots:
 
 #### From Codeanywhere
 
-To push the code to Github from Codeanywhere, the following command can be used:
+To push the code to Github from Codeanywhere, the following command can be used "git push":
 
-- 
+ ![git push on codeanywhere](/documentation/codeanywherepush.png)
 
 
 #### On GitHub
