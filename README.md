@@ -79,20 +79,20 @@ Responsive screenshots:
 
 ### Languages
 
-- HTML5: was used to create the structure and content throughout the website.
-- CSS3: was used to style the code throughout the website.
-- Javascript: was used for opening calendar in a new window, for automatically updating the footer year
+- [HTML5](https://en.wikipedia.org/wiki/HTML5): was used to create the structure and content throughout the website.
+- [CSS3](https://en.wikipedia.org/wiki/CSS): was used to style the code throughout the website.
+- [Javascript](https://en.wikipedia.org/wiki/JavaScript): was used for opening calendar in a new window, for automatically updating the footer year
 
 ### Frameworks, Libraries & Programs
 
-- Balsamiq: was used for Wireframe creation.
-- Canva: was used for Logo creation and screenshots
-- Snagit: was used to convert screen recordings into GIFs.
-- Codeanywhere: was used for version control and terminal used to push to GitHub.
-- GitHub: is used to store the project code and deployed website.
-- Google Fonts: were used to import "Lato" and "Open Sans" font into style.css file which is used throughout the website.
-- Font Awesome: was used for all icons used throughout the website.
-- Google Drive: is used to store documentation GIFs and videos.
+- [Balsamiq](https://balsamiq.com/wireframes/): was used for Wireframe creation.
+- [Canva](https://www.canva.com/): was used for Logo creation and screenshots
+- [Snagit](https://www.techsmith.com/screen-capture.html): was used to convert screen recordings into GIFs.
+- [Codeanywhere](https://codeanywhere.com/): was used for version control and terminal used to push to GitHub.
+- [GitHub](https://github.com/): is used to store the project code and deployed website.
+- [Google Fonts](https://fonts.google.com/): were used to import "Lato" and "Open Sans" font into style.css file which is used throughout the website.
+- [Font Awesome](https://fontawesome.com/): was used for all icons used throughout the website.
+- [Google Drive](https://drive.google.com/): is used to store documentation GIFs and videos.
 
 <br>
 
@@ -105,9 +105,12 @@ Responsive screenshots:
 #### Navigation Bar
 
 - Fully responsive and sticky navigation bar that includes links to the Home page, and the About, Testimonials, and Book Call sections.
-- The navigation bar is displayed in a hamburger menu on mobile.
-- The navigation bar on the thankyou.html page is different as it only links back to the Home page and not the other sections.
+- The navigation bar is displayed in a hamburger menu on smaller screens to enhance readability and accessibility of the navigation menu.
+- The navigation bar on the thankyou.html page is different as it only displays the logo that links back to the Home page and not the other sections, because it should enhance calmness for the user to not be overwhelmed.
 - The navigation bar allows the user to easily navigate from section to section, and easily navigate back to the Home page from the Thank you page.
+- The navigation bar has a logo that redirects to top of the page when clicked for easy navigation.
+- The navigation menu includes a link to the Home section, a link to the About section, a link to the Testimonials section and a button link to the Book Call section that can be reached by clicking on each link.
+- There is a color changing hover affect applied to the Home, About, Testimonials and Book Call section for easier navigation.
 
   ![Navigation Bar for UX Ventures website with different resolutions and hover effects](/documentation/navigation.png)
 
@@ -130,7 +133,8 @@ Responsive screenshots:
 
 - This gives the user an overview of career coaching experiences from past students in written form as well as video format.
 - The embedded YouTube playlist will not automatically play, and can be opened directly on YouTube as well, if the user wishes to do so.
-- This section will be allow the user to get an insight on further benefits of using career coaching services and should entice the user to book a call.
+- The embedded YouTube videos can directly be played on the website, if the user wishes to do so, which is a great experience for the user as no extra tab or window needs to be opened.
+- This section will  allow the user to get an insight on further benefits of using career coaching services and should entice the user to book a call.
 
   ![Testimonials section for UX Ventures website with different resolutions](/documentation/testimonials.png)
 
@@ -140,14 +144,15 @@ Responsive screenshots:
 - The career coaching call booking button is using the primary button design to entice the user to preferably book a call, versus sending a message. 
 - This section also includes a portrait image of the career coach to connect with the user on a personal level.
 - This section also includes a contact form with a secondary button to give the user the option to reach out first, if needed.
+- That contact form includes first name, last name, email and message fields that are required to be filled by the user to be able to submit the form, if not filled, it will not be sent.
+- The contact form fields also require the correct format to be used. If the email field is not filled with an email format, the form cannot be submitted and the user will see an error message to correct the field entry.
 
   ![Book Call section for UX Ventures website with different resolutions](/documentation/book-call-features.png)
 
 #### Footer
 
-- The footer section includes a link to LinkedIn for UX Ventures, as well as a link to the developer's GitHub repository. The footer also contains the copyright statement.
-- All links will open in a new tab for easier navigation, and feature a hover effect.
-- This section helps the user to connect with UX Ventures on Social Media.
+- The footer section includes a link to LinkedIn for UX Ventures, as well as a link to the developer's GitHub repository. The footer also contains the copyright statement to give the user a quick overview of the creator of the website, the owner of the website as well as quick access to Social Media to connect with UX Ventures.
+- When the user clicks on the links, they will open in a new tab for easier navigation, and feature a hover effect for better readability.
 
   ![Book Call section for UX Ventures website with different resolutions](/documentation/footer.png)
 
@@ -177,6 +182,13 @@ Responsive screenshots:
 - The paid services could be implemented for the call-book and resource sections.
 - This would involve implementing a solution for direct online payments when users want to download content or book a coaching call.
 
+#### Further Improvements
+
+- Make sure to do further accessibility testing with tools like the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/).
+- Include a fully functioning form without the help of tools like [Sheetmonkey](https://sheetmonkey.io/).
+- Improve commit messages by keeping them shorter, as I went above the character limit from time to time.
+- Also use the correct filepath when adding commits, instead of just using "add ."
+
 <br>
 
 ## Testing
@@ -187,17 +199,17 @@ Responsive screenshots:
 
 1. Browser test for functionality:
    
-   - Chrome:
+   - [Chrome](https://www.google.com/intl/en_ie/chrome/):
     
         ![Chrome functionality test](https://drive.google.com/uc?id=1RK5PuRC0ik2YZFpTtsdYW7MUmArzr4Gs)
         
-   - Firefox:
+   - [Firefox](https://www.mozilla.org/en-US/firefox/new/):
   
-        ![Firefox functionality test [open this link if GIF is not loading](https://drive.google.com/uc?id=1Rz2nKI9WJiPN6o1gEome-FKpBJdQl519)](https://drive.google.com/uc?id=1Rz2nKI9WJiPN6o1gEome-FKpBJdQl519)
+        ![Firefox functionality test](https://drive.google.com/uc?id=1Rz2nKI9WJiPN6o1gEome-FKpBJdQl519)
         
-   - Safari:
+   - [Safari](https://www.apple.com/safari/):
   
-        ![Safari functionality test [open this link if GIF is not loading](https://drive.google.com/uc?id=1m330nqL1oNa-EJ6RP_0GF9Ku0vnds-IN)](https://drive.google.com/uc?id=1m330nqL1oNa-EJ6RP_0GF9Ku0vnds-IN)
+        ![Safari functionality test](https://drive.google.com/uc?id=1m330nqL1oNa-EJ6RP_0GF9Ku0vnds-IN)
 
 2. Responsiveness test:
 
@@ -272,19 +284,19 @@ Responsive screenshots:
 
 #### HTML
 
-- No errors were returned when passing through the official W3C validator
+- No errors were returned when passing through the official [W3C validator](https://validator.w3.org/).
  
     ![html validator testing image](/documentation/html-validator.png)
     
 #### CSS
 
-- No errors were found when passing through the official (Jigsaw) validator.
+- No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
 
-    ![html validator testing image](/documentation/css-validator.png)
+    ![css validator testing image](/documentation/css-validator.png)
 
 - 7 warnings were found when passing through the official (Jigsaw) validator.
 
-    ![html validator testing image](/documentation/css-validator-warnings.png)
+    ![css validator testing warning image](/documentation/css-validator-warnings.png)
 
     - 3 warnings regarding button background-color and border-color being the same value.
       - **Comment**: This was intended as only the background-color should change upon hover, not the border-color.
@@ -293,9 +305,11 @@ Responsive screenshots:
 
 <br>
 
-### Accessibility & Performance
+### Lighthouse
 
-- Checked with lighthouse in devtools:
+- Checked with [lighthouse in devtools](https://developer.chrome.com/docs/lighthouse/overview/):
+
+    #### index.html:
 
   -   Desktop check was all above 90%:
      ![Book Call section for UX Ventures website with different resolutions](/documentation/lighthouse-desktop.png)
@@ -307,6 +321,15 @@ Responsive screenshots:
     - However, I could not verify any interference with  accessibility, or performance:
      ![Book Call section for UX Ventures website with different resolutions](/documentation/lighthouse-mobile-bestpractices.png)
 
+   #### thankyou.html:
+
+  -   Desktop check was all above 90%:
+     ![Book Call section for UX Ventures website with different resolutions](/documentation/lighthouse-desktop-thankyou.png)
+     
+  - Mobile check was all above 90%:
+    ![Book Call section for UX Ventures website with different resolutions](/documentation/lighthouse-mobile-thankyou.png)
+
+
 <br>
 
 ### Fixed Bugs
@@ -315,6 +338,7 @@ Responsive screenshots:
 - On mobile resolution, the hero text was not centered. This was caused by margin set for the container which I removed.
 - On mobile, the embedded iframe did not have the correct margin set for the column display. Corrected the top margin for cohesive experience for the user.
 - Footer would not display any styling, this was caused by a missing CSS closing tag for the book-call section. Adding the missing tag solved the issue.
+- To enhance readability fixed the background color of the footer to a darker shade.
 
 <br>
 
@@ -327,7 +351,14 @@ Responsive screenshots:
 
 ### Deployment
 
-#### Steps
+#### From Codeanywhere
+
+To push the code to Github from Codeanywhere, the following command can be used:
+
+- 
+
+
+#### On GitHub
 
 1. Navigate to the GitHub repository for UX Ventures.
 2. Click on the "Settings" tab and navigate to "Pages."
@@ -336,6 +367,21 @@ Responsive screenshots:
 5. It takes a few minutes until the deployed website is created and visible.
 
 - Deployed website can be found here: https://dietkest.github.io/ux-ventures/ 
+
+#### Local deployment
+
+To make a local copy of this project in VSCode, these steps can be followed:
+
+1. Navigate here <https://github.com/DietkeSt/ux-ventures.git>, and click on "Code > Local > HTTPS"
+    
+2. Click on "Download ZIP"
+![Clone repository](/documentation/clone-repository.png)
+
+3. Navigate to the folder you want to open by using cd
+![cd file](/documentation/vscode-cd.png)
+
+4. Then, type code and the pathfile
+![code filepath](/documentation/vscode-code.png)
 
 <br>
 
@@ -378,13 +424,14 @@ Responsive screenshots:
 - The code on this website was created by the developer, Dietke Steindel, unless otherwise credited.
 - The text on this website is taken from [this website](https://kimsteindel.weebly.com/), and was written by Kim Steindel (used with approval).
 - The icons on this website were taken from [Font Awesome](https://fontawesome.com/).
+- The fonts used website were taken from [Google Fonts](https://fonts.google.com/).
 - The testimonials and videos were taken from this [YouTube channel](https://www.youtube.com/@kimsteindel227) (used with approval).
 
 <br>
 
 ### Media
 
-- The [Logo](/assets/images/logo.png) was created by myself (Dietke Steindel) with the help of paint and Canva.
+- The [Logo](/assets/images/logo.png) was created by myself (Dietke Steindel) with the help of paint and Canva due to knowledge of the business and requirements of the logo.
 - The [Book-call image of Kim Steindel](/assets/images/book-call.png) was used with Kim's approval.
 - The [Hero image](https://www.pexels.com/de-de/foto/weisses-druckerpapier-196645/) was found on open source website Pexels.com.
 
