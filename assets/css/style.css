@@ -545,9 +545,10 @@ div .call-item-3 {
     height: auto;
     min-height: 5vh;
     padding: 1em 5em;
-    background-color: #02727e;
+    background-color: #040404;
     display: flex;
     align-items: center;
+    box-shadow: 0 -12px 16px 0 rgba(0, 0, 0, 0.24), 0 -17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .footer-container {
