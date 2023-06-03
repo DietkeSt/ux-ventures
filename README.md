@@ -5,7 +5,7 @@
 UX Ventures is a Career Coaching homepage that offers assistance in helping UX Design students to find a job, get a promotion, or land a freelance contract. 
 The goal is for the students to book a career coaching call.
 
-- [Deployed UX Ventures Ltd. Homepage](https://dietkest.github.io/ux-ventures/index.html)
+- [Deployed UX Ventures Ltd. Homepage](https://dietkest.github.io/ux-ventures/)
 
 - [UX Ventures repository on GitHub](https://github.com/DietkeSt/ux-ventures)
 
