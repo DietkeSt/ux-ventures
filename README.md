@@ -36,6 +36,10 @@ Responsive screenshots:
 ### Wireframes
 
   ![UX Ventures wireframe for first website draft](/documentation/ux-ventures-wireframe.png)
+  
+Wanted to create a one-page website for ease of use for the user, so they can decide to scroll through, or use the navigation to get to the desired section. The main focus should be on the option to book a call, so I decided to use a button design in the navigation menu to draw attention to it.
+
+The wireframe shows a rough idea on how the sections should be aligned, but the design changed slightly in the finalized version to make sure everything is readable and expresses calmness when the user scrolls through the website.
 
 <br>
 
@@ -45,9 +49,17 @@ Responsive screenshots:
 
   ![Image for button styling](/documentation/buttons.png)
 
+Decided to go with two button designs as I wanted to include a book call option as well as an option to use a contact form. As they are on the same page, the buttons should be different, as I wanted the primary focus on the book call option. 
+
+In the book call section, I use the primary button for the option to book a call and the secondary button to submit a contact form.
+
 #### Colors
 
   ![Colors used on website: #04A4AC, #02727e, #040404, #f4f4f4](/documentation/colors.png)
+  
+The colors were chosen to express calmness and good readability for the contrast colors of Almost Black and Wild Sand. The Bondi Blue was chosen for the accent color for an inviting design.
+
+I ended up not using Blue Lagoon yet, but will consider using it for future development of the website.
 
 #### Font
 
@@ -67,9 +79,13 @@ Responsive screenshots:
 
 - **li:** #040404, 18px, Lato
 
+The font Lato was chosen for readability and Open Sans was going well with the primary font.
+
 #### Logo
 
   ![UX Ventures logo](/documentation/logo.png)
+
+The logo fits into the website, so it shows a cohesive design pattern. It was designed with the company owners and their preferences in mind. It should be simple, straight to the point and pleasing to the eye.
 
 <br>
 
@@ -112,7 +128,7 @@ Responsive screenshots:
 - The navigation menu includes a link to the Home section, a link to the About section, a link to the Testimonials section and a button link to the Book Call section that can be reached by clicking on each link.
 - There is a color changing hover affect applied to the Home, About, Testimonials and Book Call section for easier navigation.
 
-  ![Navigation Bar for UX Ventures website with different resolutions and hover effects](/documentation/navigation.png)
+  ![Navigation Bar for UX Ventures website with different resolutions and hover effects](/documentation/navigation-screenshot.png)
 
 #### Hero Image
 
@@ -120,14 +136,15 @@ Responsive screenshots:
 - The hero section text is shorted on mobile resolution to not overwhelm the user.
 - This section is a quick intro to the website and its purpose with an animation effect to grab the user's attention.
 
-  ![Hero section for UX Ventures website with different resolutions](/documentation/hero-features.png)
+  ![Hero section for UX Ventures website with different resolutions](/documentation/hero-screenshots.png)
 
 #### About Section
 
 - The about section gives the user an overview of the background of Kim Steindel, and the services and benefits working with UX Ventures.
 - Upon learning more about the background and benefits, this should entice the user in booking a career coaching call.
 
-  ![About section for UX Ventures website with different resolutions](/documentation/about.png)
+  ![About section for UX Ventures website with desktop resolutions](/documentation/about-desktop.png)
+  ![About section for UX Ventures website with different resolutions](/documentation/about-tab-mob.png)
 
 #### Testimonials Section
 
@@ -136,7 +153,7 @@ Responsive screenshots:
 - The embedded YouTube videos can directly be played on the website, if the user wishes to do so, which is a great experience for the user as no extra tab or window needs to be opened.
 - This section will  allow the user to get an insight on further benefits of using career coaching services and should entice the user to book a call.
 
-  ![Testimonials section for UX Ventures website with different resolutions](/documentation/testimonials.png)
+  ![Testimonials section for UX Ventures website with different resolutions](/documentation/testimonials-screenshots.png)
 
 #### Book Call Section
 
@@ -147,21 +164,28 @@ Responsive screenshots:
 - That contact form includes first name, last name, email and message fields that are required to be filled by the user to be able to submit the form, if not filled, it will not be sent.
 - The contact form fields also require the correct format to be used. If the email field is not filled with an email format, the form cannot be submitted and the user will see an error message to correct the field entry.
 
-  ![Book Call section for UX Ventures website with different resolutions](/documentation/book-call-features.png)
+  ![Book Call section for UX Ventures website with different resolutions](/documentation/book-call-screenshots.png)
+
+##### Book Call Button
+
+- The book call button will open a new window that leads to a Google Calendar. The user will have the option to book a call slot in that calendar.
+- It is opening in a new window instead of a new tab to make sure that the user's attention will be on that newly opened window for better user experience. The user will need less clicks to book a call.
+
+    ![Book Call window for UX Ventures website](/documentation/book-call-window.png)
 
 #### Footer
 
 - The footer section includes a link to LinkedIn for UX Ventures, as well as a link to the developer's GitHub repository. The footer also contains the copyright statement to give the user a quick overview of the creator of the website, the owner of the website as well as quick access to Social Media to connect with UX Ventures.
 - When the user clicks on the links, they will open in a new tab for easier navigation, and feature a hover effect for better readability.
 
-  ![Book Call section for UX Ventures website with different resolutions](/documentation/footer.png)
+  ![Book Call section for UX Ventures website with different resolutions](/documentation/footer-screenshots.png)
 
 #### Thank You Page
 
 - The Thank You Page opens after a user submits a message via the contact form, so the user knows that the message was successfully sent.
 - The page includes a separate navigation with only the logo visible and a return to Home page button. This is done on purpose, to not overwhelm the user with too much content on the Thank You page.
 
-  ![Book Call section for UX Ventures website with different resolutions](/documentation/thank-you.png)
+  ![Book Call section for UX Ventures website with different resolutions](/documentation/thankyou.png)
 
 <br>
 
@@ -197,35 +221,49 @@ Responsive screenshots:
 
 ### Functionality & Responsiveness
 
-1. Browser test for functionality:
+1. **Browser test for functionality:**
    
    - [Chrome](https://www.google.com/intl/en_ie/chrome/):
     
-        ![Chrome functionality test](https://drive.google.com/uc?id=1RK5PuRC0ik2YZFpTtsdYW7MUmArzr4Gs)
+        ![Chrome functionality test](documentation/chrome-test.png)
+        
+        Video of the test can be seen [here](https://drive.google.com/file/d/18w4ymGO7tYQHPf4OUAuItKa7JR3buAeZ/view?usp=sharing).
         
    - [Firefox](https://www.mozilla.org/en-US/firefox/new/):
   
-        ![Firefox functionality test](https://drive.google.com/uc?id=1Rz2nKI9WJiPN6o1gEome-FKpBJdQl519)
+        ![Firefox functionality test](documentation/firefox-test.png)
+
+        Video of the test can be seen [here](https://drive.google.com/file/d/11ZU0RMI1GxsFwoOQk4nOLOciqfwGwOgG/view?usp=sharing).
         
    - [Safari](https://www.apple.com/safari/):
   
-        ![Safari functionality test](https://drive.google.com/uc?id=1m330nqL1oNa-EJ6RP_0GF9Ku0vnds-IN)
+        ![Safari functionality test](documentation/safari-test.png)
 
-2. Responsiveness test:
+        Video of the test can be seen [here](https://drive.google.com/file/d/1356r69spuRjP8KXHbHHpZ3PDtub4Ygx-/view?usp=sharing).
 
-   - With [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/) Chrome extension:
+    Everything was working as expected on all three browsers tested.
+
+2. **Responsiveness test:**
+
+   - With [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb) Chrome extension:
   
-        ![Responsive Viewer testing gif](https://drive.google.com/uc?id=1-QXmhwiXhVvg_kowmoCbNZCADV_PGKYT)
+        ![Responsive Viewer testing image](documentation/responsive-viewer-test.png)
         
-        Or, watch the Responsive Viewer testing video [here](https://drive.google.com/file/d/1mIZ2ADsKHXGSmtG08jh-rykGGGG1tS9x/view?usp=share_link)
+        Video of Responsive Viewer testing can be seen [here](https://drive.google.com/file/d/1mIZ2ADsKHXGSmtG08jh-rykGGGG1tS9x/view?usp=sharing)
     
    - [DevTools](https://developer.chrome.com/docs/devtools/):
    
-        ![DevTools responsiveness testing gif](https://drive.google.com/uc?id=17kMDw10v71FkG4RSscJmUE0Oo-xh35Lw)
+        ![DevTools responsiveness testing image desktop](documentation/devtool-test1.png)
+
+        ![DevTools responsiveness testing image tablet](documentation/devtool-test2.png)
+
+        ![DevTools responsiveness testing image mobile](documentation/devtool-test3.png)
         
-        Or, watch the DevTools testing video [here](https://drive.google.com/file/d/1V6tL2tVCKPUREmTmNhuY_raBfSHR8TZS/view?usp=sharing)
+        Video of DevTools testing can be seen [here](https://drive.google.com/file/d/1V6tL2tVCKPUREmTmNhuY_raBfSHR8TZS/view?usp=sharing)
+
+    The website was working as expected in several responsiveness testing tools.
    
-3. All links were tested as well, and are opening as expected.
+3. **All links were tested as well, and are opening as expected:**
  
     #### Navigation
 
@@ -351,14 +389,14 @@ Responsive screenshots:
 
 ### Deployment
 
-#### From Codeanywhere
+#### From [Codeanywhere](https://app.codeanywhere.com/)
 
 To push the code to Github from Codeanywhere, the following command can be used "git push":
 
  ![git push on codeanywhere](/documentation/codeanywherepush.png)
 
 
-#### On GitHub
+#### On [GitHub](https://github.com/)
 
 1. Navigate to the GitHub repository for UX Ventures.
 2. Click on the "Settings" tab and navigate to "Pages."
@@ -370,7 +408,7 @@ To push the code to Github from Codeanywhere, the following command can be used 
 
 #### Local deployment
 
-To make a local copy of this project in VSCode, these steps can be followed:
+To make a local copy of this project in [VSCode](https://code.visualstudio.com/), these steps can be followed:
 
 1. Navigate here <https://github.com/DietkeSt/ux-ventures.git>, and click on "Code > Local > HTTPS"
     
@@ -432,7 +470,7 @@ To make a local copy of this project in VSCode, these steps can be followed:
 ### Media
 
 - The [Logo](/assets/images/logo.png) was created by myself (Dietke Steindel) with the help of paint and Canva due to knowledge of the business and requirements of the logo.
-- The [Book-call image of Kim Steindel](/assets/images/book-call.png) was used with Kim's approval.
+- The [Book-call image of Kim Steindel](/assets/images/book-call.jpg) was used with Kim's approval.
 - The [Hero image](https://www.pexels.com/de-de/foto/weisses-druckerpapier-196645/) was found on open source website Pexels.com.
 
 <br>
