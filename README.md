@@ -212,6 +212,7 @@ The logo fits into the website, so it shows a cohesive design pattern. It was de
 - Include a fully functioning form without the help of tools like [Sheetmonkey](https://sheetmonkey.io/).
 - Improve commit messages by keeping them shorter, as I went above the character limit from time to time.
 - Also use the correct filepath when adding commits, instead of just using "add ."
+- Add favicon and custom 404 page in the future as well.
 
 <br>
 
